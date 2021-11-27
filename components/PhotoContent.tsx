@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 import images from "data/images";
 
 const PhotoContent = () => {
@@ -6,15 +6,8 @@ const PhotoContent = () => {
     <Box>
       {images.map((image) => {
         return (
-          <Box mb={10}>
-            <img
-              key={image.src}
-              src={image.src}
-              style={{
-                width: "100%",
-                maxWidth: 450,
-              }}
-            />
+          <Box key={image.src} mb={10}>
+            <Image src={image.src} width="100%" maxWidth={450} />
           </Box>
         );
       })}
