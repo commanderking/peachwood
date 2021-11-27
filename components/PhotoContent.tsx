@@ -8,6 +8,7 @@ const PhotoContent = () => {
         return (
           <Box mb={10}>
             <img
+              key={image.src}
               src={image.src}
               style={{
                 width: "100%",
