@@ -6,14 +6,8 @@ const StickyFooterLayout = () => {
   // TODO: When viewport sees the photos, Peach will pop up and provide commentary
   const viewingPhotos = false;
   return (
-    <Box
-      margin="auto"
-      maxWidth={500}
-      display="flex"
-      flexDirection="column"
-      height="100vh"
-    >
-      <Box overflow="scroll" flex={5} padding={20}>
+    <Box margin="auto" maxWidth={500} flexDirection="column" height="100vh">
+      <Box padding={20}>
         <Box
           height="100vh"
           display="flex"
@@ -32,7 +26,11 @@ const StickyFooterLayout = () => {
           <PhotoContent />
         </Box>
       </Box>
-      {viewingPhotos && <Footer />}
+      {viewingPhotos && (
+        <Box flex={1} flexShrink={0} position="sticky" bottom="20px">
+          <Footer />
+        </Box>
+      )}
     </Box>
   );
 };
