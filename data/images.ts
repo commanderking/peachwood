@@ -1,10 +1,13 @@
+type Avatar = "peach_hungry.png";
+
 type Commentary = {
     commentator: "PEACH",
+    avatarImage: "peach_hungry.png"
     commentEN: string,
     commentCH: string
 }
 
-type Image = {
+export type Image = {
     src: string,
     commentary: Commentary[]
 }
@@ -16,7 +19,8 @@ const images: Image[] = [
         commentary: [
             {
                 commentator: "PEACH",
-                commentEN: "When Woody first came to the house, I watched him from a distance.",
+                avatarImage: "peach_hungry.png",
+                commentEN: "When Woody first came to the house, I watched her from a distance.",
                 commentCH: ""
             }
         ]
@@ -54,6 +58,7 @@ const images: Image[] = [
         commentary: [
             {
                 commentator: "PEACH",
+                avatarImage: "peach_hungry.png",
                 commentEN: "We enjoyed hanging out in the backyard!",
                 commentCH: ""
             }
