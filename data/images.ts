@@ -20,7 +20,7 @@ const images: Image[] = [
             {
                 commentator: "PEACH",
                 avatarImage: "peach_hungry.png",
-                commentEN: "When Woody first came to the house, I watched her from a distance.",
+                commentEN: "When Woody first came to the house, I watched her from a distance. ",
                 commentCH: ""
             }
         ]
