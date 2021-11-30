@@ -12,10 +12,7 @@ const Layout = () => {
   };
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
 
-  const viewingPhotos = currentStepIndex > 0;
-
   const currentImage = images[currentStepIndex - 1];
-
   const canDisplayCommentary = currentImage?.commentary?.length;
 
   return (

@@ -20,7 +20,11 @@ const PhotoContent = ({ onStepEnter, images }: Props) => {
           return (
             <Step data={index + 1} key={image.src}>
               <Box mb={40}>
-                <Image src={`${photoBaseUrl}${image.src}`} width="100%" />
+                <Image
+                  src={`${photoBaseUrl}${image.src}`}
+                  width="100%"
+                  alt="Image of Animal"
+                />
               </Box>
             </Step>
           );

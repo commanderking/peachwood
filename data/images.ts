@@ -55,9 +55,10 @@ const images: Image[] = [
     },
     {
         src: "peach_woody_backyard.jpg",
-        avatarImage: "peach_hungry.png",
         commentary: [
             {
+                commentator: "PEACH",
+                avatarImage: "peach_hungry.png",
                 commentEN: "We enjoyed hanging out in the backyard!",
                 commentCH: ""
             }
