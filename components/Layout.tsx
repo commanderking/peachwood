@@ -16,6 +16,8 @@ const Layout = () => {
 
   const currentImage = images[currentStepIndex - 1];
 
+  const canDisplayCommentary = currentImage?.commentary?.length;
+
   return (
     <Box margin="auto" maxWidth={500}>
       <div style={{ position: "sticky", top: 0, border: "1px solid orchid" }}>
@@ -43,7 +45,7 @@ const Layout = () => {
           />
         </Box>
       </Box>
-      {viewingPhotos && (
+      {canDisplayCommentary && (
         <Box flex={1} position="sticky" bottom="5px" ml="5%" width="90%">
           <Footer currentImage={currentImage} />
         </Box>
