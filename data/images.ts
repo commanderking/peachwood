@@ -4,7 +4,7 @@ type Commentary = {
     commentCH: string
 }
 
-type Image = {
+export type Image = {
     src: string,
     commentary: Commentary[]
 }
