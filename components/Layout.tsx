@@ -13,7 +13,7 @@ const Layout = () => {
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
 
   const currentImage = images[currentStepIndex - 1];
-  const canDisplayCommentary = currentImage?.commentary?.length;
+  const canDisplayCommentary = Boolean(currentImage?.commentary?.length);
 
   return (
     <Box margin="auto" maxWidth={[500, 650]}>
