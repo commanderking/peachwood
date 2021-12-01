@@ -1,8 +1,8 @@
-type Avatar = "peach_hungry.png";
+type Avatar = string;
 
 type Commentary = {
     commentator: "PEACH",
-    avatarImage: "peach_hungry.png"
+    avatarImage: string,
     commentEN: string,
     commentCH: string
 }
@@ -27,23 +27,58 @@ const images: Image[] = [
     },
     {
         src: "peach_bbq.png",
-        commentary: []
+        commentary: [
+            {
+                commentator: "PEACH",
+                avatarImage: "peach_alert.png",
+                commentEN: "MEOW!!",
+                commentCH: ""
+            }
+        ]
     },
     {
         src: "peach_box.png",
-        commentary: []
+        commentary: [
+            {
+                commentator: "PEACH",
+                avatarImage: "peach_licking.png",
+                commentEN: "MEOW!!",
+                commentCH: ""
+            }
+        ]
     },
     {
         src: "peach_perfect_fix_box.png",
-        commentary: []
+        commentary: [
+            {
+                commentator: "PEACH",
+                avatarImage: "peach_sleepy.png",
+                commentEN: "MEOW!!",
+                commentCH: ""
+            }
+        ]
     },
     {
         src: "peach_on_allison.png",
-        commentary: []
+        commentary: [
+            {
+                commentator: "PEACH",
+                avatarImage: "peach_staring.png",
+                commentEN: "MEOW!!",
+                commentCH: ""
+            }  
+        ]
     },
     {
         src: "peach_staircase.png",        
-        commentary: []
+        commentary: [
+            {
+                commentator: "PEACH",
+                avatarImage: "peach_thinking.png",
+                commentEN: "MEOW!!",
+                commentCH: ""
+            }  
+        ]
     },
     {
         src: "peach_watching_jimmy.png",
