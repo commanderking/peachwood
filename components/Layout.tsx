@@ -16,36 +16,32 @@ const Layout = () => {
   const canDisplayCommentary = currentImage?.commentary?.length;
 
   return (
-    <Box>
-      <Box margin="auto" maxWidth={[500, 650]} pl={5} pr={5}>
-        {debug && (
-          <div
-            style={{ position: "sticky", top: 0, border: "1px solid orchid" }}
-          >
-            I'm sticky. The current triggered step index is: {currentStepIndex}
-          </div>
-        )}
-        <Box>
-          <Box
-            height="100vh"
-            display="flex"
-            justifyContent="center"
-            alignItems="center"
-          >
-            <Box>
-              <Heading textAlign="center">Welcome to PeachWood Estate!</Heading>
-              <Text textAlign="center">
-                Home to Peach and Woody's Digital Content
-              </Text>
-            </Box>
-          </Box>
+    <Box margin="auto" maxWidth={[500, 650]}>
+      {debug && (
+        <div style={{ position: "sticky", top: 0, border: "1px solid orchid" }}>
+          I'm sticky. The current triggered step index is: {currentStepIndex}
+        </div>
+      )}
+      <Box pl={5} pr={5}>
+        <Box
+          height="100vh"
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
           <Box>
-            <PhotoContent
-              onStepEnter={onStepEnter}
-              currentStepIndex={currentStepIndex}
-              images={images}
-            />
+            <Heading textAlign="center">Welcome to PeachWood Estate!</Heading>
+            <Text textAlign="center">
+              Home to Peach and Woody's Digital Content
+            </Text>
           </Box>
+        </Box>
+        <Box>
+          <PhotoContent
+            onStepEnter={onStepEnter}
+            currentStepIndex={currentStepIndex}
+            images={images}
+          />
         </Box>
       </Box>
       {canDisplayCommentary && (
