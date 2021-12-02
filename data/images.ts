@@ -1,7 +1,7 @@
 type Avatar = string;
-
+type Commentator = "PEACH" | "WOODY";
 type Commentary = {
-    commentator: "PEACH",
+    commentator: Commentator,
     avatarImage: string,
     commentEN: string,
     commentCH: string
@@ -99,6 +99,17 @@ const images: Image[] = [
             }
         ]
     },
+    {
+        src: "woody_blanket.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "peach_hungry.png",
+                commentEN: "Woody's looking comfy here!",
+                commentCH: ""
+            }
+        ]
+    }
 ]
 
 export default images; 
