@@ -1,8 +1,9 @@
-import { Box, Heading, Text } from "@chakra-ui/react";
+import { Box, Heading, Text, Image } from "@chakra-ui/react";
 import { useState } from "react";
 import Footer from "components/Footer";
-import PhotoContent from "components/PhotoContent";
+import Photo from "components/Photo";
 import images from "data/images";
+import { Scrollama, Step } from "react-scrollama";
 
 const avatarBaseUrl = "/profile/";
 
@@ -25,26 +26,34 @@ const Layout = () => {
         </div>
       )}
       <Box pl={5} pr={5}>
-        <Box
-          height="100vh"
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-        >
-          <Box>
-            <Heading textAlign="center">Welcome to PeachWood Estate!</Heading>
-            <Text textAlign="center">
-              Home to Peach and Woody's Digital Content
-            </Text>
-          </Box>
-        </Box>
-        <Box>
-          <PhotoContent
-            onStepEnter={onStepEnter}
-            currentStepIndex={currentStepIndex}
-            images={images}
-          />
-        </Box>
+        <Scrollama offset={0.3} onStepEnter={onStepEnter}>
+          <Step data={0}>
+            <Box
+              height="100vh"
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+            >
+              <Box>
+                <Heading textAlign="center">
+                  Welcome to PeachWood Estate!
+                </Heading>
+                <Text textAlign="center">
+                  Home to Peach and Woody's Digital Content
+                </Text>
+              </Box>
+            </Box>
+          </Step>
+          {images.map((image, index) => {
+            return (
+              <Step data={index + 1} key={image.src}>
+                <Box mb={10}>
+                  <Photo image={image} />
+                </Box>
+              </Step>
+            );
+          })}
+        </Scrollama>
       </Box>
 
       {
