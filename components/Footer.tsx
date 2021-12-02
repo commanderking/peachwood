@@ -1,12 +1,11 @@
 import { Box, Flex, Image, WrapItem } from "@chakra-ui/react";
 import { Image as ImageType } from "data/images";
 type Props = {
-  currentImage: ImageType;
+  imageSrc: string;
+  text: string;
 };
 
-const avatarBaseUrl = "/profile/";
-
-const Footer = ({ currentImage }: Props) => {
+const Footer = ({ imageSrc, text }: Props) => {
   return (
     <Flex backgroundColor="lightpink" padding={5} borderRadius={10}>
       <Box
@@ -21,11 +20,11 @@ const Footer = ({ currentImage }: Props) => {
           style={{
             borderRadius: "50px",
           }}
-          src={`${avatarBaseUrl}${currentImage.commentary[0].avatarImage}`}
+          src={imageSrc}
         />
       </Box>
       <Box ml={3} display="flex" justifyContent="center" alignItems="center">
-        {currentImage.commentary[0]?.commentEN}
+        {text}
       </Box>
     </Flex>
   );

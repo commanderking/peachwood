@@ -8,7 +8,7 @@ type Commentary = {
 }
 
 export type Image = {
-    src: string,
+    src?: string,
     commentary: Commentary[]
 }
 

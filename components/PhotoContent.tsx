@@ -11,25 +11,23 @@ type Props = {
 
 const PhotoContent = ({ onStepEnter, images }: Props) => {
   return (
-    <Box>
-      <Scrollama offset={0.3} onStepEnter={onStepEnter}>
-        <Step data={0}>
-          <Heading>2021 Photos</Heading>
-        </Step>
-        {images.map((image, index) => {
-          return (
-            <Step data={index + 1} key={image.src}>
-              <Box mb={10}>
-                <Image
-                  src={`${photoBaseUrl}${image.src}`}
-                  alt="Image of Animal"
-                />
-              </Box>
-            </Step>
-          );
-        })}
-      </Scrollama>
-    </Box>
+    <Scrollama offset={0.3} onStepEnter={onStepEnter}>
+      <Step data={0}>
+        <Heading mb={5}>2021 Photos</Heading>
+      </Step>
+      {images.map((image, index) => {
+        return (
+          <Step data={index + 1} key={image.src}>
+            <Box mb={10}>
+              <Image
+                src={`${photoBaseUrl}${image.src}`}
+                alt="Image of Animal"
+              />
+            </Box>
+          </Step>
+        );
+      })}
+    </Scrollama>
   );
 };
 

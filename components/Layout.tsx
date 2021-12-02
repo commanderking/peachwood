@@ -4,6 +4,8 @@ import Footer from "components/Footer";
 import PhotoContent from "components/PhotoContent";
 import images from "data/images";
 
+const avatarBaseUrl = "/profile/";
+
 const Layout = () => {
   const debug = false;
 
@@ -44,11 +46,23 @@ const Layout = () => {
           />
         </Box>
       </Box>
-      {canDisplayCommentary && (
+
+      {
         <Box flex={1} position="sticky" bottom="5px" ml="2.5%" width="95%">
-          <Footer currentImage={currentImage} />
+          <Footer
+            imageSrc={
+              canDisplayCommentary
+                ? `${avatarBaseUrl}${currentImage.commentary[0].avatarImage}`
+                : `${avatarBaseUrl}peach_staring.png`
+            }
+            text={
+              canDisplayCommentary
+                ? currentImage.commentary[0]?.commentEN
+                : "Hey there! Peach here!! I'll be your host. Scroll down to see more photos of Woody and me!"
+            }
+          />
         </Box>
-      )}
+      }
     </Box>
   );
 };
