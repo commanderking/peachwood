@@ -7,7 +7,13 @@ type Props = {
 };
 
 const Photo = ({ image }: Props) => {
-  return <Image src={`${photoBaseUrl}${image.src}`} alt="Image of Animal" />;
+  return (
+    <Image
+      width="100%"
+      src={`${photoBaseUrl}${image.src}`}
+      alt="Image of Animal"
+    />
+  );
 };
 
 export default Photo;
