@@ -13,6 +13,7 @@ const Photo = ({ image, border }: Props) => {
       width="100%"
       src={`${photoBaseUrl}${image.src}`}
       alt="Image of Animal"
+      // @ts-ignore - should be stronger border typing
       border={border}
     />
   );
