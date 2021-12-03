@@ -104,12 +104,89 @@ const images: Image[] = [
         commentary: [
             {
                 commentator: "WOODY",
-                avatarImage: "peach_hungry.png",
-                commentEN: "Woody's looking comfy here!",
+                avatarImage: "woody_excited.png",
+                commentEN: "This blanket is great!",
                 commentCH: ""
             }
         ]
-    }
+    },
+    {
+        src: "woody_bored_with_jimmy.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "woody_excited.png",
+                commentEN: "This man is real boring!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "woody_car_sleep.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "woody_excited.png",
+                commentEN: "WOOF!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "woody_central_square.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "woody_excited.png",
+                commentEN: "WOOF!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "woody_living_room.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "woody_excited.png",
+                commentEN: "WOOF!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "woody_muji.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "woody_excited.png",
+                commentEN: "WOOF!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "woody_siblings.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "woody_excited.png",
+                commentEN: "WOOF!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "woody_smashed_car.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "woody_excited.png",
+                commentEN: "WOOF!",
+                commentCH: ""
+            }
+        ]
+    },
 ]
 
 export default images; 
