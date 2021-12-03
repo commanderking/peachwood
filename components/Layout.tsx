@@ -30,7 +30,7 @@ const Layout = () => {
       )}
       <Box pl={5} pr={5}>
         {canDisplayCommentary && (
-          <Box flex={1} position="sticky" top="10%">
+          <Box flex={1} position="sticky" top="0">
             <Box position="absolute" width="100%">
               <Footer
                 imageSrc={`${avatarBaseUrl}${currentImage.commentary[0].avatarImage}`}
@@ -39,7 +39,7 @@ const Layout = () => {
             </Box>
           </Box>
         )}
-        <Scrollama offset={0.22} onStepEnter={onStepEnter}>
+        <Scrollama offset={0.11} onStepEnter={onStepEnter}>
           <Step data={0}>
             <Box
               height="100vh"
