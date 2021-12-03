@@ -4,14 +4,16 @@ const photoBaseUrl = "/photos/";
 
 type Props = {
   image: ImageType;
+  border?: string | null;
 };
 
-const Photo = ({ image }: Props) => {
+const Photo = ({ image, border }: Props) => {
   return (
     <Image
       width="100%"
       src={`${photoBaseUrl}${image.src}`}
       alt="Image of Animal"
+      border={border}
     />
   );
 };
