@@ -1,4 +1,3 @@
-type Avatar = string;
 type Commentator = "PEACH" | "WOODY";
 type Commentary = {
   commentator: Commentator;
@@ -9,13 +8,13 @@ type Commentary = {
 
 export type Image = {
   src?: string;
-  commentary: Commentary[];
+  comments: Commentary[];
 };
 
 const images: Image[] = [
   {
     src: "peach_bbq.png",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
@@ -27,7 +26,7 @@ const images: Image[] = [
   },
   {
     src: "peach_box.png",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
@@ -39,7 +38,7 @@ const images: Image[] = [
   },
   {
     src: "peach_perfect_fix_box.png",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
@@ -51,7 +50,7 @@ const images: Image[] = [
   },
   {
     src: "peach_on_allison.png",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
@@ -63,7 +62,7 @@ const images: Image[] = [
   },
   {
     src: "peach_watching_jimmy.png",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
@@ -75,7 +74,7 @@ const images: Image[] = [
   },
   {
     src: "peach_staircase.png",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
@@ -87,7 +86,7 @@ const images: Image[] = [
   },
   {
     src: "peach_with_three.jpg",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
@@ -99,7 +98,7 @@ const images: Image[] = [
   },
   {
     src: "woody_profile.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -110,7 +109,7 @@ const images: Image[] = [
   },
   {
     src: "woody_car_sleep.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -122,7 +121,7 @@ const images: Image[] = [
   },
   {
     src: "woody_blanket.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -134,7 +133,7 @@ const images: Image[] = [
   },
   {
     src: "woody_bored_with_jimmy.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -147,7 +146,7 @@ const images: Image[] = [
 
   {
     src: "woody_central_square.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -159,7 +158,7 @@ const images: Image[] = [
   },
   {
     src: "woody_muji.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -170,7 +169,7 @@ const images: Image[] = [
   },
   {
     src: "woody_siblings.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -182,7 +181,7 @@ const images: Image[] = [
   },
   {
     src: "woody_living_room.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -194,7 +193,7 @@ const images: Image[] = [
   },
   {
     src: "woody_smashed_car.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -206,7 +205,7 @@ const images: Image[] = [
   },
   {
     src: "peach_appa.jpg",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
@@ -218,7 +217,7 @@ const images: Image[] = [
   },
   {
     src: "peachwood_peach_tree.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -229,7 +228,7 @@ const images: Image[] = [
   },
   {
     src: "peachwood_box.png",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
@@ -241,7 +240,7 @@ const images: Image[] = [
   },
   {
     src: "peachwood_carpet.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -253,7 +252,7 @@ const images: Image[] = [
   },
   {
     src: "peachwood_creep.png",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
@@ -266,7 +265,7 @@ const images: Image[] = [
 
   {
     src: "peachwood_kitchen_floor_looking_up.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -278,7 +277,7 @@ const images: Image[] = [
   },
   {
     src: "peachwood_lick.png",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -296,7 +295,7 @@ const images: Image[] = [
 
   {
     src: "peachwood_stare.png",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
@@ -308,7 +307,7 @@ const images: Image[] = [
   },
   {
     src: "peachwood_backyard.jpg",
-    commentary: [
+    comments: [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
@@ -320,7 +319,7 @@ const images: Image[] = [
   },
   {
     src: "peachwood_eat.png",
-    commentary: [
+    comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",

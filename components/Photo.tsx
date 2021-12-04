@@ -15,6 +15,7 @@ const Photo = ({ image, border }: Props) => {
       alt="Image of Animal"
       // @ts-ignore - should be stronger border typing
       border={border}
+      borderRadius={10}
     />
   );
 };
