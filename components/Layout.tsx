@@ -15,11 +15,12 @@ const Layout = () => {
   };
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
 
-  const currentImage = images[currentStepIndex - 2];
+  // Steps for images start at 2.
+  const stepModifier = 2;
+
+  const currentImage = images[currentStepIndex - stepModifier];
   const canDisplayCommentary = Boolean(currentImage?.commentary?.length);
   const displayIntroCommentary = currentStepIndex === 0;
-
-  console.log("currentStepIndex", currentStepIndex);
 
   return (
     <Box margin="auto" maxWidth={[500, 650]}>
@@ -39,7 +40,7 @@ const Layout = () => {
             </Box>
           </Box>
         )}
-        <Scrollama offset={0.11} onStepEnter={onStepEnter}>
+        <Scrollama offset={0.16} onStepEnter={onStepEnter}>
           <Step data={0}>
             <Box
               height="100vh"
@@ -75,7 +76,7 @@ const Layout = () => {
             </Box>
           </Step>
           {images.map((image, index) => {
-            const matchedIndex = index + 2;
+            const matchedIndex = index + stepModifier;
             const isCurrentImage = matchedIndex === currentStepIndex;
             return (
               <Step data={matchedIndex} key={image.src}>
