@@ -19,8 +19,8 @@ const images: Image[] = [
         commentary: [
             {
                 commentator: "PEACH",
-                avatarImage: "peach_hungry.png",
-                commentEN: "When Woody first came to the house, I watched her from a distance. ",
+                avatarImage: "peach_thinking.png",
+                commentEN: "When Woody first came to the house, I watched her from a distance.",
                 commentCH: ""
             }
         ]
@@ -30,7 +30,7 @@ const images: Image[] = [
         commentary: [
             {
                 commentator: "PEACH",
-                avatarImage: "peach_alert.png",
+                avatarImage: "peach_thinking.png",
                 commentEN: "MEOW!!",
                 commentCH: ""
             }
@@ -41,7 +41,7 @@ const images: Image[] = [
         commentary: [
             {
                 commentator: "PEACH",
-                avatarImage: "peach_licking.png",
+                avatarImage: "peach_thinking.png",
                 commentEN: "MEOW!!",
                 commentCH: ""
             }
@@ -52,7 +52,7 @@ const images: Image[] = [
         commentary: [
             {
                 commentator: "PEACH",
-                avatarImage: "peach_sleepy.png",
+                avatarImage: "peach_thinking.png",
                 commentEN: "MEOW!!",
                 commentCH: ""
             }
@@ -63,7 +63,7 @@ const images: Image[] = [
         commentary: [
             {
                 commentator: "PEACH",
-                avatarImage: "peach_staring.png",
+                avatarImage: "peach_thinking.png",
                 commentEN: "MEOW!!",
                 commentCH: ""
             }  
@@ -82,21 +82,24 @@ const images: Image[] = [
     },
     {
         src: "peach_watching_jimmy.png",
-        commentary: []
-    },
-    {
-        src: "peach_with_three.jpg",
-        commentary: []
-    },
-    {
-        src: "peach_woody_backyard.jpg",
         commentary: [
             {
                 commentator: "PEACH",
-                avatarImage: "peach_hungry.png",
-                commentEN: "We enjoyed hanging out in the backyard!",
+                avatarImage: "peach_thinking.png",
+                commentEN: "Not how I would have written the code...",
                 commentCH: ""
-            }
+            }  
+        ]
+    },
+    {
+        src: "peach_with_three.jpg",
+        commentary: [
+            {
+                commentator: "PEACH",
+                avatarImage: "peach_thinking.png",
+                commentEN: "",
+                commentCH: ""
+            }  
         ]
     },
     {
@@ -183,6 +186,105 @@ const images: Image[] = [
                 commentator: "WOODY",
                 avatarImage: "woody_excited.png",
                 commentEN: "WOOF!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "peachwood_box.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "woody_excited.png",
+                commentEN: "WOOF!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "peachwood_carpet.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "woody_excited.png",
+                commentEN: "WOOF!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "peachwood_creep.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "woody_excited.png",
+                commentEN: "WOOF!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "peachwood_eat.png",
+        commentary: [
+            {
+                commentator: "WOODY",
+                avatarImage: "woody_excited.png",
+                commentEN: "WOOF!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "peachwood_kitchen_floor_looking_up.png",
+        commentary: [
+            {
+                commentator: "PEACH",
+                avatarImage: "peach_thinking.png",
+                commentEN: "MEOW!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "peachwood_lick.png",
+        commentary: [
+            {
+                commentator: "PEACH",
+                avatarImage: "peach_thinking.png",
+                commentEN: "MEOW!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "peachwood_peach_tree.png",
+        commentary: [
+            {
+                commentator: "PEACH",
+                avatarImage: "peach_thinking.png",
+                commentEN: "MEOW!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "peachwood_stare.png",
+        commentary: [
+            {
+                commentator: "PEACH",
+                avatarImage: "peach_thinking.png",
+                commentEN: "MEOW!",
+                commentCH: ""
+            }
+        ]
+    },
+    {
+        src: "peachwood_backyard.jpg",
+        commentary: [
+            {
+                commentator: "PEACH",
+                avatarImage: "peach_hungry.png",
+                commentEN: "We enjoyed hanging out in the backyard!",
                 commentCH: ""
             }
         ]

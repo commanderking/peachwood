@@ -62,7 +62,7 @@ const Layout = () => {
                     <Footer
                       imageSrc={`${avatarBaseUrl}peach_staring.png`}
                       text={
-                        "Hey there! Peach here!! I'll be your host. Scroll down to see more photos of Woody and me!"
+                        "Meowllo! Peach here!! I'll be your host. Scroll down to see more photos of Woody and me!"
                       }
                     />
                   </Box>
