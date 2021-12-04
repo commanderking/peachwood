@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Image } from "@chakra-ui/react";
+import { Box, Heading, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import Comments from "components/Comments";
 import Photo from "components/Photo";
@@ -67,6 +67,7 @@ const Layout = () => {
                           commentCH: "",
                         },
                       ]}
+                      imageId={"peach_intro"}
                     />
                   </Box>
                 )}
