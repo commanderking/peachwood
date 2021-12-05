@@ -205,7 +205,7 @@ const images: Image[] = [
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
         commentEN:
-          "I'm great in cars too, so I've gotten to go to a ton of different dog parks! Sometimes I get myself in weird positions though...",
+          "I'm great in cars too, so I've gotten to go to a ton of different dog parks! Sometimes I get myself in weird positions though... not unlike a certain cat.",
         commentCH: "",
       },
     ],
@@ -217,11 +217,22 @@ const images: Image[] = [
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
         commentEN:
-          "When Woody first came to the house, I watched her from a distance.",
+          "When Woody first came to the house, I watched her warily from a distance.",
         commentCH: "",
       },
     ],
-  },
+  },{
+    src: "peachwood_box.png",
+    comments: [
+      {
+        commentator: "PEACH",
+        avatarImage: "peach_thinking.png",
+        commentEN:
+          "But once I realized she wouldn't take away my boxes, I decided she was okay.",
+        commentCH: "",
+      },
+    ],
+  }
   {
     src: "peachwood_peach_tree.png",
     comments: [
@@ -239,18 +250,7 @@ const images: Image[] = [
       },
     ],
   },
-  {
-    src: "peachwood_box.png",
-    comments: [
-      {
-        commentator: "PEACH",
-        avatarImage: "peach_thinking.png",
-        commentEN:
-          "Woody and I were wary of each other at first, but once I realized she wouldn't take away my boxes I decided she was okay.",
-        commentCH: "",
-      },
-    ],
-  },
+  ,
   {
     src: "peachwood_carpet.png",
     comments: [
@@ -325,7 +325,7 @@ const images: Image[] = [
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
         commentEN:
-          "No problem, Peach! But I saw how scared you were in the backyard!!",
+          "Maybe inside the house, Peach, but I saw how scared you were in the backyard!!",
         commentCH: "",
       },
     ],
