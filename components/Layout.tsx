@@ -4,6 +4,7 @@ import Comments from "components/Comments";
 import Photo from "components/Photo";
 import images from "data/images";
 import { Scrollama, Step } from "react-scrollama";
+import Image from "next/image";
 
 const Layout = () => {
   const debug = false;
@@ -50,15 +51,21 @@ const Layout = () => {
                 <Text textAlign="center">
                   Home to Peach and Woody's Digital Content
                 </Text>
+                <Image
+                  src="/photos/peachwood_2021_card.jpeg"
+                  width={500}
+                  height={357}
+                />
+
                 {displayIntroCommentary && (
-                  <Box position="absolute" bottom="20px">
+                  <Box position="relative" mt={5}>
                     <Comments
                       comments={[
                         {
                           commentator: "PEACH",
                           avatarImage: "peach_thinking.png",
                           commentEN:
-                            "Meowllo! Peach here!! I'll be your host. It's been a good year and I'd love to share some updates with you! Scroll down to see more photos of Woody and me!",
+                            "Meowllo! Peach here!! I'll be your host. I'd love to share some updates with you! Scroll down to see more photos of Woody and me!",
                           commentCH: "",
                         },
                       ]}
@@ -79,8 +86,10 @@ const Layout = () => {
             return (
               <Step data={matchedIndex} key={image.src}>
                 <Box mb={10}>
-                  <Photo image={image} border={"5px solid lightpink"} />
-                  <Comments comments={image.comments} />
+                  <Box backgroundColor="lightpink" padding={2}>
+                    <Photo image={image} />
+                    <Comments comments={image.comments} />
+                  </Box>
                 </Box>
               </Step>
             );
