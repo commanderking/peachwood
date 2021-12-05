@@ -231,6 +231,12 @@ const images: Image[] = [
         commentEN: "Oh, hi Peach! Did I interrupt you? Take it away!",
         commentCH: "",
       },
+      {
+        commentator: "PEACH",
+        avatarImage: "peach_thinking.png",
+        commentEN: "😾",
+        commentCH: "😾"
+      },
     ],
   },
   {

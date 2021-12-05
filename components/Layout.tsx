@@ -4,6 +4,7 @@ import Comments from "components/Comments";
 import Photo from "components/Photo";
 import images from "data/images";
 import { Scrollama, Step } from "react-scrollama";
+import Image from "next/image";
 
 const Layout = () => {
   const debug = false;
@@ -21,7 +22,7 @@ const Layout = () => {
   const displayIntroCommentary = currentStepIndex === 0;
 
   return (
-    <Box margin="auto" maxWidth={[500, 650]}>
+    <Box margin="auto" maxWidth={[500, 600]}>
       {debug && (
         <div style={{ position: "sticky", top: 0, border: "1px solid orchid" }}>
           I'm sticky. The current triggered step index is: {currentStepIndex}
@@ -30,12 +31,7 @@ const Layout = () => {
       <Box pl={5} pr={5}>
         {canDisplayCommentary && (
           <Box flex={1} position="sticky" top="0">
-            <Box position="absolute" width="100%">
-              <Comments
-                comments={currentImage.comments}
-                imageId={currentImage.src}
-              />
-            </Box>
+            <Box position="absolute" width="100%"></Box>
           </Box>
         )}
         <Scrollama offset={0.16} onStepEnter={onStepEnter}>
@@ -55,19 +51,24 @@ const Layout = () => {
                 <Text textAlign="center">
                   Home to Peach and Woody's Digital Content
                 </Text>
+                <Image
+                  src="/photos/peachwood_2021_card.jpeg"
+                  width={500}
+                  height={357}
+                />
+
                 {displayIntroCommentary && (
-                  <Box position="absolute" bottom="20px">
+                  <Box position="relative" mt={5}>
                     <Comments
                       comments={[
                         {
                           commentator: "PEACH",
                           avatarImage: "peach_thinking.png",
                           commentEN:
-                            "Meowllo! Peach here!! I'll be your host. It's been a good year and I'd love to share some updates with you! Scroll down to see more photos of Woody and me!",
+                            "Meowllo! Peach here!! I'll be your host. I'd love to share some updates with you! Scroll down to see more photos of Woody and me!",
                           commentCH: "",
                         },
                       ]}
-                      imageId={"peach_intro"}
                     />
                   </Box>
                 )}
@@ -85,12 +86,10 @@ const Layout = () => {
             return (
               <Step data={matchedIndex} key={image.src}>
                 <Box mb={10}>
-                  <Photo
-                    image={image}
-                    border={
-                      isCurrentImage ? "10px solid pink" : "10px solid white"
-                    }
-                  />
+                  <Box backgroundColor="lightpink" padding={2}>
+                    <Photo image={image} />
+                    <Comments comments={image.comments} />
+                  </Box>
                 </Box>
               </Step>
             );
@@ -101,13 +100,12 @@ const Layout = () => {
             comments={[
               {
                 commentator: "PEACH",
-                avatarImage: "peach_staring.png",
+                avatarImage: "peach_thinking.png",
                 commentEN:
                   "Thanks for taking the time to catch up with us! Special thanks to Uncle Jeffrey for putting this site together for us. If you are seeing this, it means you hold a special place in our family's heart in some way. And so we wish you happy holidays, and a happy and healthy New Year! 🎉",
                 commentCH: "",
               },
             ]}
-            imageId="peach_concusion_text"
           />
           <Comments
             comments={[
@@ -118,11 +116,8 @@ const Layout = () => {
                 commentCH: "",
               },
             ]}
-            imageId="peach_concusion_text"
           />
         </Box>
-        Additional Information (or at least blank space to allow for last photo
-        to be captured!)
       </Box>
     </Box>
   );
