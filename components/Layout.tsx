@@ -21,7 +21,7 @@ const Layout = () => {
   const displayIntroCommentary = currentStepIndex === 0;
 
   return (
-    <Box margin="auto" maxWidth={[500, 650]}>
+    <Box margin="auto" maxWidth={[500, 600]}>
       {debug && (
         <div style={{ position: "sticky", top: 0, border: "1px solid orchid" }}>
           I'm sticky. The current triggered step index is: {currentStepIndex}
@@ -30,12 +30,7 @@ const Layout = () => {
       <Box pl={5} pr={5}>
         {canDisplayCommentary && (
           <Box flex={1} position="sticky" top="0">
-            <Box position="absolute" width="100%">
-              <Comments
-                comments={currentImage.comments}
-                imageId={currentImage.src}
-              />
-            </Box>
+            <Box position="absolute" width="100%"></Box>
           </Box>
         )}
         <Scrollama offset={0.16} onStepEnter={onStepEnter}>
@@ -67,7 +62,6 @@ const Layout = () => {
                           commentCH: "",
                         },
                       ]}
-                      imageId={"peach_intro"}
                     />
                   </Box>
                 )}
@@ -85,12 +79,8 @@ const Layout = () => {
             return (
               <Step data={matchedIndex} key={image.src}>
                 <Box mb={10}>
-                  <Photo
-                    image={image}
-                    border={
-                      isCurrentImage ? "10px solid pink" : "10px solid white"
-                    }
-                  />
+                  <Photo image={image} border={"5px solid lightpink"} />
+                  <Comments comments={image.comments} />
                 </Box>
               </Step>
             );
@@ -101,13 +91,12 @@ const Layout = () => {
             comments={[
               {
                 commentator: "PEACH",
-                avatarImage: "peach_staring.png",
+                avatarImage: "peach_thinking.png",
                 commentEN:
                   "Thanks for taking the time to catch up with us! Special thanks to Uncle Jeffrey for putting this site together for us. If you are seeing this, it means you hold a special place in our family's heart in some way. And so we wish you happy holidays, and a happy and healthy New Year! 🎉",
                 commentCH: "",
               },
             ]}
-            imageId="peach_concusion_text"
           />
           <Comments
             comments={[
@@ -118,11 +107,8 @@ const Layout = () => {
                 commentCH: "",
               },
             ]}
-            imageId="peach_concusion_text"
           />
         </Box>
-        Additional Information (or at least blank space to allow for last photo
-        to be captured!)
       </Box>
     </Box>
   );
