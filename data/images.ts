@@ -19,7 +19,14 @@ const images: Image[] = [
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
         commentEN:
-          "Even though it was another year of social distancing, we found ways to meet with our close friends and family safely outside with delicious smelling meat. Nobody gave me meat though 😿",
+          "Though it was another year of social distancing, we found ways to meet with our close friends and family safely outside with delicious smelling meat.",
+        commentCH: "",
+      },
+      {
+        commentator: "PEACH",
+        avatarImage: "peach_thinking.png",
+        commentEN:
+          " Nobody gave me meat though 😿",
         commentCH: "",
       },
     ],

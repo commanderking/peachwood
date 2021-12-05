@@ -1,4 +1,4 @@
-import { Box, Flex, Image, WrapItem } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { useState } from "react";
 
 import { Comment } from "data/images";
@@ -56,7 +56,7 @@ const Footer = ({ comments, imageId }: Props) => {
         />
       </Box>
       <Box ml={3} flex={1} display="flex" alignItems="center" textAlign="left">
-        {currentComment.commentEN}
+        <Text>{currentComment.commentEN}</Text>
       </Box>
 
       <Box display="flex" alignItems="center" w={"20px"} textAlign="right">
