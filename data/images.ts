@@ -1,5 +1,5 @@
 type Commentator = "PEACH" | "WOODY";
-type Commentary = {
+export type Comment = {
   commentator: Commentator;
   avatarImage: string;
   commentEN: string;
@@ -7,8 +7,8 @@ type Commentary = {
 };
 
 export type Image = {
-  src?: string;
-  comments: Commentary[];
+  src: string;
+  comments: Comment[];
 };
 
 const images: Image[] = [
