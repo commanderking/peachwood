@@ -101,12 +101,12 @@ const Layout = () => {
           <Footer
             imageSrc={`${avatarBaseUrl}peach_staring.png`}
             text={
-              "Thanks for taking the time to catch up with us! Special thanks to Uncle Jeffrey for putting this site together for us. If you are seeing this, it means you hold a special place in our family's heart in some way. And so we wish you happy holidays, and a happy and healthy New Year!"
+              "Thanks for taking the time to catch up with us! Special thanks to Uncle Jeffrey for putting this site together for us. If you are seeing this, it means you hold a special place in our family's heart in some way. And so we wish you happy holidays, and a happy and healthy New Year! 🎉"
             }
           />
           <Footer
             imageSrc={`${avatarBaseUrl}woody_excited.png`}
-            text={"Woof! Nice to meet you, and see you next year!"}
+            text={"Woof! Nice to meet you, and see you next year! 🎊"}
           />
         </Box>
         Additional Information (or at least blank space to allow for last photo

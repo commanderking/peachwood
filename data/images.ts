@@ -80,7 +80,7 @@ const images: Image[] = [
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
         commentEN:
-          "Anyway, I thought it was just gonna be me, Jimmy (sheep), Allison (rooster), and Jeffrey (rabbit) for a while.",
+          "Anyway, I thought it was just gonna be me, Jimmy (sheep), Allison (rooster), and Uncle Jeffrey (rabbit) for a while.",
         commentCH: "",
       },
     ],
@@ -115,7 +115,7 @@ const images: Image[] = [
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
         commentEN:
-          "Jimmy and Allison adopted me in October. It's been a big change for me, moving to a busy place like Cambridge.",
+          "Jimmy and Allison adopted me in October. It's been a big change for me, moving from rural Arkansas to a busy place like Cambridge.",
         commentCH: "",
       },
     ],
