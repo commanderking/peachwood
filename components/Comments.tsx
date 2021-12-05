@@ -18,7 +18,10 @@ const Footer = ({ comments, borderRadius = "" }: Props) => {
     <Box backgroundColor="lightpink" padding={4} borderRadius={borderRadius}>
       {comments.map((comment, index) => {
         return (
-          <Flex mb={index + 1 === comments.length ? 0 : 5}>
+          <Flex
+            key={`${comment.avatarImage}-${index}`}
+            mb={index + 1 === comments.length ? 0 : 5}
+          >
             <Box
               display="flex"
               justifyContent="center"
