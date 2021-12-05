@@ -33,10 +33,15 @@ const Layout = () => {
         {canDisplayCommentary && (
           <Box flex={1} position="sticky" top="0">
             <Box position="absolute" width="100%">
-              <Footer
-                imageSrc={`${avatarBaseUrl}${currentImage.commentary[0].avatarImage}`}
-                text={currentImage.commentary[0]?.commentEN}
-              />
+              {currentImage.commentary.map((c, i) => {
+                return (
+                  <Footer
+                    imageSrc={`${avatarBaseUrl}${c.avatarImage}`}
+                    text={c.commentEN}
+                    key={i}
+                  />
+                );
+              })}
             </Box>
           </Box>
         )}
@@ -62,7 +67,7 @@ const Layout = () => {
                     <Footer
                       imageSrc={`${avatarBaseUrl}peach_staring.png`}
                       text={
-                        "Meowllo! Peach here!! I'll be your host. Scroll down to see more photos of Woody and me!"
+                        "Meowllo! Peach here!! I'll be your host. It's been a good year and I'd love to share some updates with you! Scroll down to see more photos of Woody and me!"
                       }
                     />
                   </Box>
@@ -93,9 +98,19 @@ const Layout = () => {
           })}
         </Scrollama>
         <Box height={"50vh"}>
-          Additional Information (or at least blank space to allow for last
-          photo to be captured!)
+          <Footer
+            imageSrc={`${avatarBaseUrl}peach_staring.png`}
+            text={
+              "Thanks for taking the time to catch up with us! Special thanks to Uncle Jeffrey for putting this site together for us. If you are seeing this, it means you hold a special place in our family's heart in some way. And so we wish you happy holidays, and a happy and healthy New Year!"
+            }
+          />
+          <Footer
+            imageSrc={`${avatarBaseUrl}woody_excited.png`}
+            text={"Woof! Nice to meet you, and see you next year!"}
+          />
         </Box>
+        Additional Information (or at least blank space to allow for last photo
+        to be captured!)
       </Box>
     </Box>
   );
