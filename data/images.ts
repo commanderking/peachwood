@@ -250,7 +250,6 @@ const images: Image[] = [
       },
     ],
   },
-  ,
   {
     src: "peachwood_carpet.png",
     comments: [
