@@ -232,7 +232,7 @@ const images: Image[] = [
         commentCH: "",
       },
     ],
-  }
+  },
   {
     src: "peachwood_peach_tree.png",
     comments: [
