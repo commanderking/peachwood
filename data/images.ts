@@ -39,7 +39,7 @@ const images: Image[] = [
         avatarImage: "peach_thinking.png",
         EN:
           "As always, Jimmy ordered a lot of packages this year. He returned most of the things he ordered, but he kept every box, and so I have had plenty of comfy places to sleep.",
-        CH: "Jimmy 今年跟平常一樣訂了很多包裹。大部分的東西被退掉了，可是他都保留了每一個空盒子，所以我總是有挺多地方可以好好的睡。",
+        CH: "Jimmy 今年跟平常一樣訂了很多包裹。大部分的東西被退掉了，可是他保留了每一個空盒子，所以我總是有挺多地方可以好好的睡。",
       },
     ],
   },

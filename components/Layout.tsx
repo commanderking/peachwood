@@ -116,7 +116,7 @@ const Layout = () => {
                 commentator: "PEACH",
                 avatarImage: "woody_excited.png",
                 EN: "Woof! Nice to meet you, and see you next year! 🎊",
-                CH: "嗡嗡！ 很高興能夠見到你！ 明年見！",
+                CH: "汪汪！ 很高興能夠見到你！ 明年見！",
               },
             ]}
             currentLanguage={currentLanguage}
