@@ -1,18 +1,20 @@
 import { Box, Flex, Image, Text, Divider } from "@chakra-ui/react";
-import { useState } from "react";
-
 import { Comment } from "data/images";
+import { Language, languages } from "constants/languages";
 
 const avatarBaseUrl = "/profile/";
 
 type Props = {
   comments: Comment[];
   borderRadius?: any;
+  currentLanguage?: Language;
 };
 
-const iconWidth = "15px";
-
-const Footer = ({ comments, borderRadius = "" }: Props) => {
+const Footer = ({
+  comments,
+  borderRadius = "",
+  currentLanguage = languages.EN.value,
+}: Props) => {
   return (
     <Box backgroundColor="lightpink">
       {comments.map((comment, index) => {
@@ -42,7 +44,9 @@ const Footer = ({ comments, borderRadius = "" }: Props) => {
                 alignItems="center"
                 textAlign="left"
               >
-                <Text fontSize={["0.9em", "1em"]}>{comment.commentEN}</Text>
+                <Text fontSize={["0.9em", "1em"]}>
+                  {comment[currentLanguage]}
+                </Text>
               </Box>
             </Flex>
             {!isLastComment && <Divider />}
