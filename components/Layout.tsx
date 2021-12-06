@@ -53,9 +53,9 @@ const Layout = () => {
         <Box height="100px" mt={10}>
           <Heading>2021 Photos</Heading>
         </Box>
-        {images.map((image) => {
+        {images.map((image, index) => {
           return (
-            <Box mb={10}>
+            <Box mb={10} key={`${image.src}-${index}`}>
               <Box backgroundColor="lightpink" padding={2}>
                 <Photo image={image} />
                 <Comments
