@@ -5,6 +5,7 @@ import Photo from "components/Photo";
 import images from "data/images";
 import { Scrollama, Step } from "react-scrollama";
 import Image from "next/image";
+import LanguageRadioButtons from "components/LanguageRadioButtons";
 
 const Layout = () => {
   const debug = false;
@@ -14,6 +15,8 @@ const Layout = () => {
   };
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
 
+  const [currentLanguage, setCurrentLanguage] = useState<"EN" | "CH">("EN");
+
   // Steps for images start at 2.
   const stepModifier = 2;
 
@@ -21,13 +24,10 @@ const Layout = () => {
   const canDisplayCommentary = Boolean(currentImage?.comments?.length);
   const displayIntroCommentary = currentStepIndex === 0;
 
+  console.log("currentLanguage", currentLanguage);
+
   return (
     <Box margin="auto" maxWidth={[500, 600]}>
-      {debug && (
-        <div style={{ position: "sticky", top: 0, border: "1px solid orchid" }}>
-          I'm sticky. The current triggered step index is: {currentStepIndex}
-        </div>
-      )}
       <Box pl={5} pr={5}>
         {canDisplayCommentary && (
           <Box flex={1} position="sticky" top="0">
@@ -44,18 +44,24 @@ const Layout = () => {
               // Position relative for absolute position of sticky intro below
               position="relative"
             >
-              <Box>
-                <Heading textAlign="center">
+              <Box alignItem="center">
+                <Heading fontSize="2xl" textAlign="center">
                   Welcome to PeachWood Estate!
                 </Heading>
                 <Text textAlign="center">
                   Home to Peach and Woody's Digital Content
                 </Text>
+
                 <Image
                   src="/photos/peachwood_2021_card.jpeg"
                   width={500}
                   height={357}
                 />
+                <Box textAlign="center">
+                  <LanguageRadioButtons
+                    setCurrentLanguage={setCurrentLanguage}
+                  />
+                </Box>
 
                 {displayIntroCommentary && (
                   <Box position="relative" mt={5}>
@@ -64,11 +70,11 @@ const Layout = () => {
                         {
                           commentator: "PEACH",
                           avatarImage: "peach_thinking.png",
-                          commentEN:
-                            "Meowllo! Peach here!! I'll be your host. I'd love to share some updates with you! Scroll down to see more photos of Woody and me!",
-                          commentCH: "",
+                          EN: "Meowllo! Peach here!! I'll be your host. I'd love to share some updates with you! Scroll down to see more photos of Woody and me!",
+                          CH: "喵嘍！ Peach 在此！！ 我是這網頁的主持人。 我想跟你分享今年的一些小消息! 想看到更多我跟 Woody 的照片， 請往下滑！",
                         },
                       ]}
+                      currentLanguage={currentLanguage}
                     />
                   </Box>
                 )}
@@ -82,13 +88,15 @@ const Layout = () => {
           </Step>
           {images.map((image, index) => {
             const matchedIndex = index + stepModifier;
-            const isCurrentImage = matchedIndex === currentStepIndex;
             return (
               <Step data={matchedIndex} key={image.src}>
                 <Box mb={10}>
                   <Box backgroundColor="lightpink" padding={2}>
                     <Photo image={image} />
-                    <Comments comments={image.comments} />
+                    <Comments
+                      comments={image.comments}
+                      currentLanguage={currentLanguage}
+                    />
                   </Box>
                 </Box>
               </Step>
@@ -101,21 +109,17 @@ const Layout = () => {
               {
                 commentator: "PEACH",
                 avatarImage: "peach_thinking.png",
-                commentEN:
-                  "Thanks for taking the time to catch up with us! Special thanks to Uncle Jeffrey for putting this site together for us. If you are seeing this, it means you hold a special place in our family's heart in some way. And so we wish you happy holidays, and a happy and healthy New Year! 🎉",
-                commentCH: "",
+                EN: "Thanks for taking the time to catch up with us! Special thanks to Uncle Jeffrey for putting this site together for us. If you are seeing this, it means you hold a special place in our family's heart in some way. And so we wish you happy holidays, and a happy and healthy New Year! 🎉",
+                CH: "感謝大家來跟我們回顧我們的2021年， 也非常感謝Jeffrey 叔叔為我們建立這網站。收到這卡片的人都是我們心中很重要的家人朋友。 希望大家過節快樂！ 新年快樂！",
               },
-            ]}
-          />
-          <Comments
-            comments={[
               {
                 commentator: "PEACH",
                 avatarImage: "woody_excited.png",
-                commentEN: "Woof! Nice to meet you, and see you next year! 🎊",
-                commentCH: "",
+                EN: "Woof! Nice to meet you, and see you next year! 🎊",
+                CH: "嗡嗡！ 很高興能夠見到你！ 明年見！",
               },
             ]}
+            currentLanguage={currentLanguage}
           />
         </Box>
       </Box>
