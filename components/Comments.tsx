@@ -10,11 +10,7 @@ type Props = {
   currentLanguage?: Language;
 };
 
-const Footer = ({
-  comments,
-  borderRadius = "",
-  currentLanguage = languages.EN.value,
-}: Props) => {
+const Footer = ({ comments, currentLanguage = languages.EN.value }: Props) => {
   return (
     <Box backgroundColor="lightpink">
       {comments.map((comment, index) => {

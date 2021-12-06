@@ -112,10 +112,6 @@ const Layout = () => {
                 EN: "Thanks for taking the time to catch up with us! Special thanks to Uncle Jeffrey for putting this site together for us. If you are seeing this, it means you hold a special place in our family's heart in some way. And so we wish you happy holidays, and a happy and healthy New Year! 🎉",
                 CH: "感謝大家來跟我們回顧我們的2021年， 也非常感謝Jeffrey 叔叔為我們建立這網站。收到這卡片的人都是我們心中很重要的家人朋友。 希望大家過節快樂！ 新年快樂！",
               },
-            ]}
-          />
-          <Comments
-            comments={[
               {
                 commentator: "PEACH",
                 avatarImage: "woody_excited.png",
@@ -123,6 +119,7 @@ const Layout = () => {
                 CH: "嗡嗡！ 很高興能夠見到你！ 明年見！",
               },
             ]}
+            currentLanguage={currentLanguage}
           />
         </Box>
       </Box>
