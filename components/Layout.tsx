@@ -42,7 +42,7 @@ const Layout = () => {
                     commentator: "PEACH",
                     avatarImage: "peach_thinking.png",
                     EN: "Meowllo! Peach here!! I'll be your host. I'd love to share some updates with you! Scroll down to see more photos of Woody and me!",
-                    CH: "喵嘍！ Peach 在此！！ 我是這網頁的主持人。 我想跟你分享今年的一些小消息! 想看到更多我跟 Woody 的照片， 請往下滑！",
+                    CH: "喵嘍！ Peach 在此！！ 我是這網頁的網主。 我想跟你分享今年的一些小消息! 想看到更多我跟 Woody 的照片， 請往下滑！",
                   },
                 ]}
                 currentLanguage={currentLanguage}
