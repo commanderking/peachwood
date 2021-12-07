@@ -8,10 +8,6 @@ import {
 import { Dispatch, SetStateAction } from "react";
 import { Language, languages } from "constants/languages";
 
-type RadioCardProps = ReturnType<typeof useRadioGroup>["getRadioProps"] & {
-  children: any;
-};
-
 function RadioCard(props: UseRadioProps & { children: React.ReactElement }) {
   const { getInputProps, getCheckboxProps } = useRadio(props);
 
