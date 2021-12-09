@@ -18,15 +18,13 @@ const images: Image[] = [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "Though it was another year of social distancing, we found ways to meet with our close friends and family safely outside with delicious smelling meat.",
-        CH: "雖然又過了一年的社交隔離， 我們還是找到了機會跟朋友親戚們在室外聚合，吃非常香的烤肉。",
+        EN: "Though it was another year of social distancing, we found ways to meet with our close friends and family safely outside with delicious smelling meat.",
+        CH: "雖然又過了一年的社交隔離， 我們還是找到了機會跟朋友親戚們在室外聚會，吃好吃又香噴噴的烤肉。",
       },
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          " Nobody gave me meat though 😿",
+        EN: " Nobody gave me meat though 😿",
         CH: "可是我連一塊肉都沒吃到。😿",
       },
     ],
@@ -37,8 +35,7 @@ const images: Image[] = [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "As always, Jimmy ordered a lot of packages this year. He returned most of the things he ordered, but he kept every box, and so I have had plenty of comfy places to sleep.",
+        EN: "As always, Jimmy ordered a lot of packages this year. He returned most of the things he ordered, but he kept every box, and so I have had plenty of comfy places to sleep.",
         CH: "Jimmy 今年跟平常一樣訂了很多包裹。大部分的東西被退掉了，可是他保留了每一個空盒子，所以我總是有挺多地方可以好好的睡。",
       },
     ],
@@ -49,8 +46,7 @@ const images: Image[] = [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "This one wasn't the comfiest, but sometimes it's just what you need!",
+        EN: "This one wasn't the comfiest, but sometimes it's just what you need!",
         CH: "這個盒子並沒太舒服，可是偶爾睡一睡也不錯。",
       },
     ],
@@ -61,9 +57,8 @@ const images: Image[] = [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "I also learned how to contribute to household chores, such as overseeing dishwasher unloading.",
-        CH: "我也學會了處理不少家務，例如監督所有關於洗碗機的活動。",
+        EN: "I also learned how to contribute to household chores, such as overseeing dishwasher unloading.",
+        CH: "我也學會了做不少家務，例如監督所有關於洗碗機的操作。",
       },
     ],
   },
@@ -73,9 +68,8 @@ const images: Image[] = [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "And overseeing fullstack engineering. This is not how I would have written the code...",
-        CH: "還有監督這位的全棧工程。如果是我的話，代碼肯定不會寫成這樣糟糕。 ",
+        EN: "And overseeing software engineering. This is not how I would have written the code...",
+        CH: "還有監督這位的軟件工程。如果是我的話，代碼肯定不會寫成這樣糟糕。 ",
       },
     ],
   },
@@ -85,9 +79,8 @@ const images: Image[] = [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "Anyway, I thought it was just gonna be me, Jimmy (sheep), Allison (rooster), and Uncle Jeffrey (rabbit) for a while.",
-        CH: "我跟 Jimmy (🐑）， Allison (🐔），和 Jeffrey 叔叔 （🐰）的日子過得很不錯。 我還以為未來會繼續這樣那麼開開心心的。",
+        EN: "Anyway, I thought it was just gonna be me, Jimmy (sheep), Allison (rooster), and Uncle Jeffrey (rabbit) for a while.",
+        CH: "我跟 Jimmy (🐑）， Allison (🐔），和 Jeffrey 叔叔 （🐰）的日子過得很不錯。 我還以為未來會繼續這樣開開心心的過下去。",
       },
     ],
   },
@@ -97,9 +90,8 @@ const images: Image[] = [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "We even took some family photos with just the four of us! But all that changed in October...",
-        CH: "我們四個全家福都照了！ 沒想到十月份。。。",
+        EN: "We even took some family photos with just the four of us! But all that changed in October...",
+        CH: "我們四個連全家福都照了！ 沒想到十月份。。。",
       },
     ],
   },
@@ -120,8 +112,7 @@ const images: Image[] = [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
-        EN:
-          "Jimmy and Allison adopted me in October. It's been a big change for me, moving from rural Arkansas to a busy place like Cambridge.",
+        EN: "Jimmy and Allison adopted me in October. It's been a big change for me, moving from rural Arkansas to a busy place like Cambridge.",
         CH: "Jimmy 跟 Allison 十月領養了我。 我的生活從此改變了不少， 從 Arkansas 州的鄉下搬到熱鬧的 Cambridge。",
       },
     ],
@@ -132,9 +123,8 @@ const images: Image[] = [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
-        EN:
-          "But they've done their best to make me feel comfortable! I don't think they got my size quite right though...",
-        CH: "雖然改變很大， 他們盡力而為，讓我感覺在家挺自在的。 不過這被子的大小好像不太對。。。",
+        EN: "But they've done their best to make me feel comfortable! I don't think they got my size quite right though...",
+        CH: "雖然改變很大， 他們竭盡全力，讓我感覺在家挺自在的。 不過這被子的大小好像不太對。。。",
       },
     ],
   },
@@ -144,8 +134,7 @@ const images: Image[] = [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
-        EN:
-          "Even though Jimmy plays a lot of video games, this is perfectly fine with me since my favorite thing to do is lie down next to my people.",
+        EN: "Even though Jimmy plays a lot of video games, this is perfectly fine with me since my favorite thing to do is lie down next to my people.",
         CH: "Jimmy 打很多電動玩具， 不過我並不在乎，因為我最愛在我兄弟們的身旁躺著。",
       },
     ],
@@ -157,8 +146,7 @@ const images: Image[] = [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
-        EN:
-          "They took me to see Boston and Cambridge! It was scary, but so many people were nice to me.",
+        EN: "They took me to see Boston and Cambridge! It was scary, but so many people were nice to me.",
         CH: "他們還帶了我去 Boston 跟 Cambridge 玩。 外面挺可怕的，可是大家都對我很好。",
       },
     ],
@@ -180,9 +168,8 @@ const images: Image[] = [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
-        EN:
-          "When I was a few weeks old, I was surrendered to the shelter with my littermates. I was worried I wouldn't see them again, but Allison and Jimmy managed to reunite us! Here's me with my brother and sister!",
-        CH: "我出生幾個月之後， 跟我的兄弟姐妹被送去了一個狗收容所。 我挺擔心我再也不會見到他們，可是 Allison 跟 Jimmy 找到了辦法讓我門再一次團聚。這是我跟我弟弟妹妹。",
+        EN: "When I was a few weeks old, I was surrendered to the shelter with my littermates. I was worried I wouldn't see them again, but Allison and Jimmy managed to reunite us! Here's me with my brother and sister!",
+        CH: "我出生幾個月之後， 跟我的兄弟姐妹被送去了一個狗收容所。 我挺擔心我再也不會見到他們，可是 Allison 跟 Jimmy 想辦法讓我們再一次團聚。這是我跟我弟弟妹妹。",
       },
     ],
   },
@@ -192,8 +179,7 @@ const images: Image[] = [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
-        EN:
-          "What is really important to me though is just being able to lie down and relax.",
+        EN: "What is really important to me though is just being able to lie down and relax.",
         CH: "躺著休息是我生命中很關鍵的一件事。",
       },
     ],
@@ -204,8 +190,7 @@ const images: Image[] = [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
-        EN:
-          "I'm great in cars too, so I've gotten to go to a ton of different dog parks! Sometimes I get myself in weird positions though... not unlike a certain cat.",
+        EN: "I'm great in cars too, so I've gotten to go to a ton of different dog parks! Sometimes I get myself in weird positions though... not unlike a certain cat.",
         CH: "我在車裡很乖的，所以我就有機會去很多不同的狗公園。 不過有時候我坐的姿勢怪怪的， 像某隻貓一樣。",
       },
     ],
@@ -216,20 +201,19 @@ const images: Image[] = [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "When Woody first came to the house, I watched her warily from a distance.",
+        EN: "When Woody first came to the house, I watched her warily from a distance.",
         CH: "Woody 當初到家，我總是從很遠距離注意它。",
       },
     ],
-  },{
+  },
+  {
     src: "peachwood_box.png",
     comments: [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "But once I realized she wouldn't take away my boxes, I decided she was okay.",
-        CH: "我一發現他不會搶我的盒子之後，我就放心了，決定他是可以忍受的。",
+        EN: "But once I realized she wouldn't take away my boxes, I decided she was okay.",
+        CH: "我一發現他不會搶我的盒子之後，我就放心了，決定我們是可以共存的。",
       },
     ],
   },
@@ -246,7 +230,7 @@ const images: Image[] = [
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
         EN: "😾",
-        CH: "😾"
+        CH: "😾",
       },
     ],
   },
@@ -256,8 +240,7 @@ const images: Image[] = [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
-        EN:
-          "Yeah! Jimmy and Allison ordered a ton of stuff when I first came, so Peach got a lot of boxes thanks to me.",
+        EN: "Yeah! Jimmy and Allison ordered a ton of stuff when I first came, so Peach got a lot of boxes thanks to me.",
         CH: "嗯！ 我剛到的時候， Jimmy 跟 Allison 幫我訂了很多很多東西。  Peach 是因為我才會有那麼多的好盒子。 ",
       },
     ],
@@ -268,8 +251,7 @@ const images: Image[] = [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "Woody sometimes gets scared and spends a lot of time in her crate where she feels safe. So I go and check up on her sometimes!",
+        EN: "Woody sometimes gets scared and spends a lot of time in her crate where she feels safe. So I go and check up on her sometimes!",
         CH: "Woody 有時會很害怕，躲到他籠子裡去。 我偶爾會去看看他怎麼樣。",
       },
     ],
@@ -281,8 +263,7 @@ const images: Image[] = [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
-        EN:
-          "Sometimes Peach teases me and runs around the house and I want to chase but know I shouldn't. We both just want treats, really!",
+        EN: "Sometimes Peach teases me and runs around the house and I want to chase but know I shouldn't. We both just want treats, really!",
         CH: "Peach 偶爾也會故意逗我，在家裡亂跑來跑去。 我很想追它， 可是我知道這是我不應該做的事。 我們兩個只不過想吃更多零食。",
       },
     ],
@@ -294,13 +275,13 @@ const images: Image[] = [
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
         EN: "Here's us asking for treats together.",
-        CH: "這是我們要求零食的樣子。",
+        CH: "這是我們討零食的樣子。",
       },
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
         EN: "Hey, someone didn't unload the dishwasher!",
-        CH: "誒， 誰沒有把碗從洗碗機拿出來！",
+        CH: "唉， 誰沒有把碗從洗碗機拿出來！",
       },
     ],
   },
@@ -311,8 +292,7 @@ const images: Image[] = [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "Anyway, it's been a few months and I guess we get along. But I am still #1!",
+        EN: "Anyway, it's been a few months and I guess we get along. But I am still #1!",
         CH: "啊， 我們在一起已經有幾個月了，還算合得來吧， 不過我還是站第一位！",
       },
     ],
@@ -323,9 +303,8 @@ const images: Image[] = [
       {
         commentator: "WOODY",
         avatarImage: "woody_excited.png",
-        EN:
-          "Maybe inside the house, Peach, but I saw how scared you were in the backyard!!",
-        CH: "也許你在家裡第一，可是我親眼見到你多麼害怕去後院！ ", 
+        EN: "Maybe inside the house, Peach, but I saw how scared you were in the backyard!!",
+        CH: "也許你在家裡第一，可是我親眼見到你多麼害怕去後院！ ",
       },
     ],
   },
@@ -335,8 +314,7 @@ const images: Image[] = [
       {
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
-        EN:
-          "Whatever, Woody!! May we both be braver and continue to be happy and well-fed in the new year!",
+        EN: "Whatever, Woody!! May we both be braver and continue to be happy and well-fed in the new year!",
         CH: "隨便了啊 Woody! 希望明年我們兩個都可以稍微勇敢一點，福如東海，年年有餘。",
       },
     ],
