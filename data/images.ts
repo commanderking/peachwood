@@ -315,7 +315,7 @@ const images: Image[] = [
         commentator: "PEACH",
         avatarImage: "peach_thinking.png",
         EN: "Whatever, Woody!! May we both be braver and continue to be happy and well-fed in the new year!",
-        CH: "隨便了啊 Woody! 希望明年我們兩個都可以稍微勇敢一點，福如東海，年年有餘。",
+        CH: "沒關係啊 Woody! 希望明年我們兩個都可以稍微勇敢一點，福如東海，年年有餘。",
       },
     ],
   },
