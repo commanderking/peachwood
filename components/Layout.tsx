@@ -31,6 +31,7 @@ const Layout = () => {
               src="/photos/peachwood_2021_card.jpeg"
               width={500}
               height={357}
+              alt="Drawing of Dog and Cat"
             />
             <Box textAlign="center">
               <LanguageRadioButtons setCurrentLanguage={setCurrentLanguage} />
