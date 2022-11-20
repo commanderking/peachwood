@@ -2,10 +2,11 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import Comments from "components/Comments";
 import Photo from "components/Photo";
-import images from "data/images";
+import years from "data/images";
 import Image from "next/image";
 import LanguageRadioButtons from "components/LanguageRadioButtons";
 import { landingScreenComments, farewellComments } from "constants/comments";
+
 const Layout = () => {
   const [currentLanguage, setCurrentLanguage] = useState<"EN" | "CH">("EN");
 
@@ -45,18 +46,20 @@ const Layout = () => {
         <Box mt={10} mb={5}>
           <Heading>2021 Photos</Heading>
         </Box>
-        {images.map((image, index) => {
-          return (
-            <Box mb={10} key={`${image.src}-${index}`}>
-              <Box backgroundColor="lightpink" padding={2}>
-                <Photo image={image} />
-                <Comments
-                  comments={image.comments}
-                  currentLanguage={currentLanguage}
-                />
+        {years.map((year, index) => {
+          return year.images.map((image) => {
+            return (
+              <Box mb={10} key={`${image.src}-${index}`}>
+                <Box backgroundColor="lightpink" padding={2}>
+                  <Photo image={image} />
+                  <Comments
+                    comments={image.comments}
+                    currentLanguage={currentLanguage}
+                  />
+                </Box>
               </Box>
-            </Box>
-          );
+            );
+          });
         })}
         <Box mb={20}>
           <Comments
