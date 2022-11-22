@@ -25,11 +25,13 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
           alignItems="center"
         >
           <Box alignItems="center">
-            <Heading fontSize="2xl" textAlign="center">
-              Welcome to PeachWood Estate!
+            <Heading fontSize="4xl" textAlign="center">
+              {currentLanguage === "EN" ? "Happy Holidays!" : "佳節快樂!"}
             </Heading>
-            <Text textAlign="center">
-              Home to Peach and Woody's Digital Content
+            <Text textAlign="center" fontSize="xl" mt={2} mb={6}>
+              {currentLanguage === "EN"
+                ? "From Peach and Woody"
+                : "From 桃子 and 木耳"}
             </Text>
             <Image
               src={headlinePhoto}
@@ -37,7 +39,7 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
               height={357}
               alt="Drawing of Dog and Cat"
             />
-            <Box textAlign="center">
+            <Box textAlign="center" mt={8}>
               <LanguageRadioButtons setCurrentLanguage={setCurrentLanguage} />
             </Box>
             {introComments && (
