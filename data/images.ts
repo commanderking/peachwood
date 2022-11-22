@@ -361,7 +361,7 @@ const images2021: YearlyData = {
 const images2022: YearlyData = {
   id: "2022",
   heading: "2022 Photos",
-  headlinePhoto: "",
+  headlinePhoto: "/photos/2022/peachwood_2022_card.jpg",
   images: [
     {
       src: "/2022/peach_mouse.jpg",
@@ -370,13 +370,13 @@ const images2022: YearlyData = {
           commentator: "PEACH",
           avatarImage: "peach_thinking.png",
           EN: "I proved once again to be the most useful member of the household. No one else was doing anything to help out, especially not you, Woody!",
-          CH: "雖然又過了一年的社交隔離， 我們還是找到了機會跟朋友親戚們在室外聚會，吃好吃又香噴噴的烤肉。",
+          CH: "",
         },
         {
           commentator: "WOODY",
           avatarImage: "woody_excited.png",
           EN: " You had it all under control! Anyway, that was also when our neighbor adopted a cat to help you out.",
-          CH: "可是我連一塊肉都沒吃到。😿",
+          CH: "",
         },
       ],
     },
