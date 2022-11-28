@@ -1,72 +1,40 @@
-import { Box, Heading, Text } from "@chakra-ui/react";
-import { useState } from "react";
-import Comments from "components/Comments";
-import Photo from "components/Photo";
+import { Box, Heading, Text, Center, Divider } from "@chakra-ui/react";
+import Link from "next/link";
 import years from "data/images";
 import Image from "next/image";
-import LanguageRadioButtons from "components/LanguageRadioButtons";
-import { landingScreenComments, farewellComments } from "constants/comments";
 
 const Layout = () => {
-  const [currentLanguage, setCurrentLanguage] = useState<"EN" | "CH">("EN");
-
   return (
-    <Box margin="auto" maxWidth={[500, 600]}>
+    <Box margin="auto" mt={12} maxWidth={[500, 600]}>
       <Box pl={5} pr={5}>
-        <Box
-          height="100vh"
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-        >
+        <Box display="flex" justifyContent="center" alignItems="center">
           <Box alignItems="center">
-            <Heading fontSize="2xl" textAlign="center">
+            <Heading fontSize="4xl" textAlign="center">
               Welcome to PeachWood Estate!
             </Heading>
             <Text textAlign="center">
               Home to Peach and Woody's Digital Content
             </Text>
-            <Image
-              src="/photos/peachwood_2021_card.jpeg"
-              width={500}
-              height={357}
-              alt="Drawing of Dog and Cat"
-            />
-            <Box textAlign="center">
-              <LanguageRadioButtons setCurrentLanguage={setCurrentLanguage} />
-            </Box>
-            <Box position="relative" mt={5}>
-              <Comments
-                comments={landingScreenComments}
-                currentLanguage={currentLanguage}
-              />
-            </Box>
+            {[...years].reverse().map((year) => {
+              return (
+                <Box m={8} key={year.id}>
+                  <Link href={`/holiday/${year.id}`}>
+                    <Image
+                      src={year.headlinePhoto}
+                      width={500}
+                      height={357}
+                      alt="Drawing of Dog and Cat"
+                    />
+                    <Center>
+                      <Text fontSize="xl">See {year.id} Photos</Text>
+                    </Center>
+                  </Link>
+                </Box>
+              );
+            })}
           </Box>
         </Box>
-        <Box mt={10} mb={5}>
-          <Heading>2021 Photos</Heading>
-        </Box>
-        {years.map((year, index) => {
-          return year.images.map((image) => {
-            return (
-              <Box mb={10} key={`${image.src}-${index}`}>
-                <Box backgroundColor="lightpink" padding={2}>
-                  <Photo image={image} />
-                  <Comments
-                    comments={image.comments}
-                    currentLanguage={currentLanguage}
-                  />
-                </Box>
-              </Box>
-            );
-          });
-        })}
-        <Box mb={20}>
-          <Comments
-            comments={farewellComments}
-            currentLanguage={currentLanguage}
-          />
-        </Box>
+        <Box mt={10} mb={5}></Box>
       </Box>
     </Box>
   );
