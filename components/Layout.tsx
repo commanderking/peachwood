@@ -17,7 +17,7 @@ const Layout = () => {
             </Text>
             {[...years].reverse().map((year) => {
               return (
-                <Box m={8}>
+                <Box m={8} key={year.id}>
                   <Link href={`/holiday/${year.id}`}>
                     <Image
                       src={year.headlinePhoto}
