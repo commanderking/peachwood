@@ -384,7 +384,7 @@ const images2022: YearlyData = {
           commentator: "PEACH",
           avatarImage: "peach_upset.jpg",
           EN: "It started off amazing! We all came back from the holiday season to a house raided by mice!",
-          CH: "年初超扯的啊！ 我們從假期回到家之後，發現家裡被一大堆老鼠霸佔了！",
+          CH: "年初超棒的啊！ 我們從假期回到家之後，發現家裡被一大堆老鼠霸佔了！",
         },
         {
           commentator: "WOODY",
