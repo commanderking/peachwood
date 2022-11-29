@@ -362,21 +362,232 @@ const images2022: YearlyData = {
   id: "2022",
   heading: "2022 Photos",
   headlinePhoto: "/photos/2022/peachwood_2022_card.jpg",
+  introComments: [
+    {
+      commentator: "WOODY",
+      avatarImage: "woody_excited.png",
+      EN: "It’s been another amazing year in Cambridge, Massachusetts! This year, now that I’ve been here a while, I’ll be your host. Scroll down to see more photos of Peach and me!",
+      CH: "在 Cambridge, Massachusetts 又過了難忘的一年！ 我住在這邊一陣了，所以今年由我，木耳 (Woody)，來做你們的網主。  想看到更多我跟桃子 (Peach) 的照片， 請往下滑！",
+    },
+  ],
   images: [
+    {
+      src: "/2022/family_pic.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Let’s see, how did this year start off?",
+          CH: "讓我看一看喔，今年剛開始發生了什麼事？",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_upset.jpg",
+          EN: "It started off amazing! We all came back from the holiday season to a house raided by mice!",
+          CH: "年初超扯的啊！ 我們從假期回到家之後，發現家裡被一大堆老鼠霸佔了！",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_uncomfy.jpg",
+          EN: "Oh yeah, that was gross!",
+          CH: "對喔，好噁心！",
+        },
+      ],
+    },
     {
       src: "/2022/peach_mouse.jpg",
       comments: [
         {
           commentator: "PEACH",
-          avatarImage: "peach_thinking.png",
+          avatarImage: "peach_alert.png",
           EN: "I proved once again to be the most useful member of the household. No one else was doing anything to help out, especially not you, Woody!",
-          CH: "",
+          CH: "我再一次證明了我是家庭唯一有本事的。 你們一個人都沒有幫助我處理老鼠的問題。 最沒幫助的就是你， 木耳！",
         },
         {
           commentator: "WOODY",
           avatarImage: "woody_excited.png",
           EN: " You had it all under control! Anyway, that was also when our neighbor adopted a cat to help you out.",
-          CH: "",
+          CH: "你已經處理得很好啊， 而且到了那時候，鄰居也領養了一隻貓來幫助你。",
+        },
+      ],
+    },
+    {
+      src: "/2022/woody_hiding.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_upset.jpg",
+          EN: "Ha, you were so scared of that cat.",
+          CH: "哈！ 你還真怕那隻貓。",
+        },
+      ],
+    },
+    {
+      src: "/2022/peach_river.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Hey, you were too! She was a fierce kitten!",
+          CH: "誒， 你不是也是！他是很兇猛的一隻貓。",
+        },
+      ],
+    },
+    {
+      src: "/2022/woody_charles_river.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "We didn’t really get to know her though since soon we moved down the street, closer to the Charles River.",
+          CH: "我們也沒有機會很了解它，因為我們不久之後就辦到離 Charles 河更近的一棟房子。",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Huh, you must have taken this picture, Peach! Nice job!",
+          CH: "誒， 這是你拍的嗎，桃子？ 不錯啊！",
+        },
+      ],
+    },
+    {
+      src: "/2022/peach_chicken.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "The new house is pretty nice. The counter tops are still very accessible.",
+          CH: "新家蠻棒的耶！ 檯面都很容易跳得上。",
+        },
+      ],
+    },
+    {
+      src: "/2022/woody_lifted.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_sad.jpg",
+          EN: "Can’t you knock some down for me next time? I can’t get very high.",
+          CH: "下次把一些食物丟下來給我吃嘛！ 我爬不上去！",
+        },
+      ],
+    },
+    {
+      src: "/2022/peach_woody_bao_sniff.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "Oh yeah, all the best stuff is up here.",
+          CH: "對喔，最好吃的都在桌上。",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Bao!!! That’s our friend, Bao!!! He stayed with us a few times and it was THE BEST.",
+          CH: "包子！ 那是我們的好朋友， 包子！！！ 它跟我們住了幾次，每一次都是最好玩的時刻。",
+        },
+      ],
+    },
+    {
+      src: "/2022/peach_bao.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_upset.jpg",
+          EN: "That dog was way too big.",
+          CH: "那隻狗真的太大了。",
+        },
+      ],
+    },
+    {
+      src: "/2022/woody_bao.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Having Bao around was THE BEST!!!!",
+          CH: "跟包子在一起最好玩啊！！！",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_upset.jpg",
+          EN: "You already said that!",
+          CH: "你已經跟我說過了啊！ ",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Well wasn’t it the best for you, too?",
+          CH: "難道你不同意嗎？",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "No! You know what was the best?",
+          CH: "才不同意！ 我跟你講什麼才是最好玩的。",
+        },
+      ],
+    },
+    {
+      src: "/2022/peach_eating.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_upset.jpg",
+          EN: "The vet told me I was underweight and that I should be getting more food!! Oh, how I have been wronged these last few years!!",
+          CH: "獸醫說我體重過輕，應該吃更多！！ 哎呦， 沒想到我這幾年被冤枉了啊！ ",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_sad.jpg",
+          EN: "The vet didn’t say that about me...",
+          CH: "怎麼都沒說我可以吃更多。。。",
+        },
+      ],
+    },
+    {
+      src: "/2022/woody_cute.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "But the vet did say I was a perfect angel!",
+          CH: "不過獸醫有說我是個完美的天使！",
+        },
+      ],
+    },
+    {
+      src: "/2022/peach_ferocious.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_upset.jpg",
+          EN: " The vet asked if I was feral.",
+          CH: "獸醫只問了我我是不是野蠻的。",
+        },
+      ],
+    },
+    {
+      src: "/2022/picture_to_come.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Well on that note, I think that was a pretty good summary of our year. Thanks so much for being in our lives — we were so happy to be able to share our year with you all!",
+          CH: "那就到此為止吧！ 我們今年也差不多就是這樣！ 感謝所有身邊的家人朋友， 很開心能夠跟大家分享我們今年的日常生活。",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "Special thanks to those of you who came over with treats! You are welcome any time.",
+          CH: "特別感謝有帶零食來的客人！ 隨時可以再來看我們哦！",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "See you next year!",
+          CH: "明年再見！ ",
         },
       ],
     },
