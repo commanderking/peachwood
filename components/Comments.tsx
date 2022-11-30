@@ -17,7 +17,7 @@ const Footer = ({ comments, currentLanguage = languages.EN.value }: Props) => {
         const isLastComment = index + 1 === comments.length;
         return (
           <Box key={`${comment.avatarImage}-${index}`}>
-            <Flex p={2}>
+            <Flex p={2} pt={[2, 4]} pb={[2, 4]}>
               <Box
                 display="flex"
                 justifyContent="center"
@@ -25,8 +25,8 @@ const Footer = ({ comments, currentLanguage = languages.EN.value }: Props) => {
                 minWidth="50px"
               >
                 <Image
-                  width="50px"
-                  height="50px"
+                  width="60px"
+                  height="60px"
                   style={{
                     borderRadius: "50px",
                   }}

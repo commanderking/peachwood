@@ -39,11 +39,11 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
               height={357}
               alt="Drawing of Dog and Cat"
             />
-            <Box textAlign="center" mt={8}>
+            <Box textAlign="center" pt={4}>
               <LanguageRadioButtons setCurrentLanguage={setCurrentLanguage} />
             </Box>
             {introComments && (
-              <Box position="relative" mt={5}>
+              <Box position="relative" mt={4}>
                 <Comments
                   comments={introComments}
                   currentLanguage={currentLanguage}

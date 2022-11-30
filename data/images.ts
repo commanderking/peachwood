@@ -367,7 +367,7 @@ const images2022: YearlyData = {
       commentator: "WOODY",
       avatarImage: "woody_excited.png",
       EN: "It’s been another amazing year in Cambridge, Massachusetts! This year, now that I’ve been here a while, I’ll be your host. Scroll down to see more photos of Peach and me!",
-      CH: "在 Cambridge, Massachusetts 又過了難忘的一年！ 我住在這邊一陣了，所以今年由我，木耳 (Woody)，來做你們的網主。  想看到更多我跟桃子 (Peach) 的照片， 請往下滑！",
+      CH: "在 Cambridge, Massachusetts 又過了難忘的一年！ 我住在這邊一陣了，所以今年由我，木耳 (Woody)，來做你們的網主。  想看到我跟桃子(Peach) 更多的照片 ， 請往下滑！",
     },
   ],
   images: [
@@ -382,7 +382,7 @@ const images2022: YearlyData = {
         },
         {
           commentator: "PEACH",
-          avatarImage: "peach_upset.jpg",
+          avatarImage: "peach_thinking.png",
           EN: "It started off amazing! We all came back from the holiday season to a house raided by mice!",
           CH: "年初超棒的啊！ 我們從假期回到家之後，發現家裡被一大堆老鼠霸佔了！",
         },
@@ -399,15 +399,15 @@ const images2022: YearlyData = {
       comments: [
         {
           commentator: "PEACH",
-          avatarImage: "peach_alert.png",
+          avatarImage: "peach_thinking.png",
           EN: "I proved once again to be the most useful member of the household. No one else was doing anything to help out, especially not you, Woody!",
-          CH: "我再一次證明了我是家庭唯一有本事的。 你們一個人都沒有幫助我處理老鼠的問題。 最沒幫助的就是你， 木耳！",
+          CH: "我再一次證明了我是家庭唯一有本事的。 你們一個人都沒有幫我抓老鼠。尤其是你，木耳！",
         },
         {
           commentator: "WOODY",
           avatarImage: "woody_excited.png",
           EN: " You had it all under control! Anyway, that was also when our neighbor adopted a cat to help you out.",
-          CH: "你已經處理得很好啊， 而且到了那時候，鄰居也領養了一隻貓來幫助你。",
+          CH: "你已經處理得很好啊， 而且鄰居也領養了一隻貓來幫助你。",
         },
       ],
     },
@@ -416,7 +416,7 @@ const images2022: YearlyData = {
       comments: [
         {
           commentator: "PEACH",
-          avatarImage: "peach_upset.jpg",
+          avatarImage: "peach_thinking.png",
           EN: "Ha, you were so scared of that cat.",
           CH: "哈！ 你還真怕那隻貓。",
         },
@@ -429,7 +429,7 @@ const images2022: YearlyData = {
           commentator: "WOODY",
           avatarImage: "woody_excited.png",
           EN: "Hey, you were too! She was a fierce kitten!",
-          CH: "誒， 你不是也是！他是很兇猛的一隻貓。",
+          CH: "唉，你不也一樣！！他是一隻很凶猛的貓。",
         },
       ],
     },
@@ -440,13 +440,13 @@ const images2022: YearlyData = {
           commentator: "PEACH",
           avatarImage: "peach_thinking.png",
           EN: "We didn’t really get to know her though since soon we moved down the street, closer to the Charles River.",
-          CH: "我們也沒有機會很了解它，因為我們不久之後就辦到離 Charles 河更近的一棟房子。",
+          CH: "我們也沒機會繼續了解牠，因為我們不久之後就辦到離 Charles 河更近的一棟房子。",
         },
         {
           commentator: "WOODY",
           avatarImage: "woody_excited.png",
           EN: "Huh, you must have taken this picture, Peach! Nice job!",
-          CH: "誒， 這是你拍的嗎，桃子？ 不錯啊！",
+          CH: "唉， 這是你拍的嗎，桃子？ 不錯啊！",
         },
       ],
     },
@@ -468,7 +468,7 @@ const images2022: YearlyData = {
           commentator: "WOODY",
           avatarImage: "woody_sad.jpg",
           EN: "Can’t you knock some down for me next time? I can’t get very high.",
-          CH: "下次把一些食物丟下來給我吃嘛！ 我爬不上去！",
+          CH: "下次丟一些食物下來！ 我爬不上去！",
         },
       ],
     },
@@ -477,7 +477,7 @@ const images2022: YearlyData = {
       comments: [
         {
           commentator: "PEACH",
-          avatarImage: "peach_hungry.png",
+          avatarImage: "peach_thinking.png",
           EN: "Oh yeah, all the best stuff is up here.",
           CH: "對喔，最好吃的都在桌上。",
         },
@@ -536,7 +536,7 @@ const images2022: YearlyData = {
           commentator: "PEACH",
           avatarImage: "peach_upset.jpg",
           EN: "The vet told me I was underweight and that I should be getting more food!! Oh, how I have been wronged these last few years!!",
-          CH: "獸醫說我體重過輕，應該吃更多！！ 哎呦， 沒想到我這幾年被冤枉了啊！ ",
+          CH: "獸醫說我體重過輕，應該讓我多吃一點！！ 哎呦， 沒想到我這幾年被冤枉了啊！ ",
         },
         {
           commentator: "WOODY",
@@ -562,9 +562,9 @@ const images2022: YearlyData = {
       comments: [
         {
           commentator: "PEACH",
-          avatarImage: "peach_upset.jpg",
+          avatarImage: "peach_thinking.png",
           EN: " The vet asked if I was feral.",
-          CH: "獸醫只問了我我是不是野蠻的。",
+          CH: "獸醫只問我是不是野生的。",
         },
       ],
     },
@@ -575,11 +575,11 @@ const images2022: YearlyData = {
           commentator: "WOODY",
           avatarImage: "woody_excited.png",
           EN: "Well on that note, I think that was a pretty good summary of our year. Thanks so much for being in our lives — we were so happy to be able to share our year with you all!",
-          CH: "那就到此為止吧！ 我們今年也差不多就是這樣！ 感謝所有身邊的家人朋友， 很開心能夠跟大家分享我們今年的日常生活。",
+          CH: "那就到此為止吧！ 我們今年也差不多就是這樣！ 感謝身邊所有的家人朋友， 很開心能夠跟大家分享我們今年的日常生活。",
         },
         {
           commentator: "PEACH",
-          avatarImage: "peach_hungry.png",
+          avatarImage: "peach_thinking.png",
           EN: "Special thanks to those of you who came over with treats! You are welcome any time.",
           CH: "特別感謝有帶零食來的客人！ 隨時可以再來看我們哦！",
         },
