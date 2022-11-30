@@ -13,13 +13,24 @@ import { YearlyData } from "data/images";
 const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
   const [currentLanguage, setCurrentLanguage] = useState<"EN" | "CH">("EN");
 
-  const { introComments, farewellComments, images, heading, headlinePhoto } =
-    yearlyData;
+  const {
+    id,
+    introComments,
+    farewellComments,
+    images,
+    heading,
+    headlinePhoto,
+  } = yearlyData;
 
   return (
     <Box margin="auto" maxWidth={[500, 600]}>
       <Head>
-        <title>Peachwood {yearlyData.id} Holiday Card</title>
+        <title>Peachwood {id} Holiday Card</title>
+        <meta property="og:title" content={`Peachwood ${id} Holiday Card`} />
+        <meta
+          property="og:description"
+          content="Home to Peach and Woody's Digital Content"
+        />
       </Head>
       <Box pl={5} pr={5}>
         <Box
