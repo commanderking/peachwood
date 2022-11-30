@@ -1,5 +1,6 @@
 import { getImagesForYear, getIds } from "data/images";
-import { GetStaticPaths, GetStaticProps } from "next";
+import { GetStaticProps } from "next";
+import Head from "next/head";
 
 import { Box, Heading, Text } from "@chakra-ui/react";
 import { useState } from "react";
@@ -17,6 +18,9 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
 
   return (
     <Box margin="auto" maxWidth={[500, 600]}>
+      <Head>
+        <title>Peachwood {yearlyData.id} Holiday Card</title>
+      </Head>
       <Box pl={5} pr={5}>
         <Box
           height="100vh"
