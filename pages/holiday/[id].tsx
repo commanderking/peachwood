@@ -31,6 +31,10 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
           property="og:description"
           content="Home to Peach and Woody's Digital Content"
         />
+        <meta
+          property="og:image"
+          content={`https://peachwood.vercel.app${headlinePhoto}`}
+        />
       </Head>
       <Box pl={5} pr={5}>
         <Box
