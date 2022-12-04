@@ -569,7 +569,7 @@ const images2022: YearlyData = {
       ],
     },
     {
-      src: "/2022/picture_to_come.jpg",
+      src: "/2022/final_photo.jpg",
       comments: [
         {
           commentator: "WOODY",
