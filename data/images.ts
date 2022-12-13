@@ -440,7 +440,7 @@ const images2022: YearlyData = {
           commentator: "PEACH",
           avatarImage: "peach_thinking.png",
           EN: "We didn’t really get to know her though since soon we moved down the street, closer to the Charles River.",
-          CH: "我們也沒機會繼續了解牠，因為我們不久之後就辦到離 Charles 河更近的一棟房子。",
+          CH: "我們也沒機會繼續了解牠，因為我們不久之後就搬到離 Charles 河更近的一棟房子。",
         },
         {
           commentator: "WOODY",
