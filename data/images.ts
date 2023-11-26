@@ -594,7 +594,177 @@ const images2022: YearlyData = {
   ],
 };
 
-const imagesAllYears = [images2021, images2022];
+const images2023: YearlyData = {
+  id: "2023",
+  heading: "2023 Photos",
+  headlinePhoto: "/photos/2023/holiday2023.jpeg",
+  introComments: [
+    {
+      commentator: "PEACH",
+      avatarImage: "peach_thinking.png",
+      EN: "Hi all! Here's another year-end update from Cambridge, Massachusetts. I'm Peach, returning as your host this year, with some occasional help from Woody.",
+      CH: "",
+    },
+  ],
+  images: [
+    {
+      src: "/2023/peach_ring.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "This year started with some big family news. Jimmy and Allison got engaged, finally! The ring looked up to snuff.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2023/woody_ring.jpeg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Yay!!! We couldn't be more excited!",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_sleepy.png",
+          EN: "Woody, you're not even looking at the ring!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2023/woody_snow.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "It was really cold this year in the northeast. Good thing I'm an indoor cat.",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "You're missing out, Peach. I got to play in the snow! Allison wasn't very good at snowshoe-ing though. She needs some snow paws.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2023/sweaters.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "At least the cold weather meant Jimmy got to wear his cat sweater more often. Look, it's orange like me!",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "I'm in this picture too, can you see me? Do you think Jimmy will get a floppy dog sweater next?",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_upset.jpg",
+          EN: "No! Cat sweaters only!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2023/peach_pillow.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_licking.png",
+          EN: "And cat pillows only, too!",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_uncomfy.jpg",
+          EN: "I don't think I've ever seen you as happy as that pillow...",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2023/peach_writing.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "I spent a lot of the year helping Allison write her book. Whenever she was at her desk, I made sure to be there and help with the typing!",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Oh yeah, I saw you two working hard on that and you looked like you made a lot of contributions. Do you think we will be in the acknowledgments?",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_alert.png",
+          EN: "We better be! Look out for our names in a real book in 2025!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2023/jimmy_woody.jpeg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "While you and Allison were writing her book, I was helping Jimmy with his basketball training! He joined a basketball league this year. His team is even named after him, Jimsanity!",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_alert.png",
+          EN: "What? How did you help him train?",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Me and Bao made sure he could use his two hands equally well!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2023/family.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "Alright, well I think it's clear that we were both critical contributors to this household this year, as usual. Thanks so much for being a part of our lives!",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Yeah! We are important, but if you're reading this, you probably helped Jimmy and Allison in some way this year as well, so thanks!",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "See you next year!",
+          CH: "明年再見！ ",
+        },
+      ],
+    },
+  ],
+};
+
+const imagesAllYears = [images2021, images2022, images2023];
 
 export const getIds = () => {
   return imagesAllYears.map((images) => ({

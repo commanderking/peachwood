@@ -25,7 +25,7 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
   return (
     <Box margin="auto" maxWidth={[500, 600]}>
       <Head>
-        <title>Peachwood {id} Holiday Card</title>
+        <title>{`Peachwood ${id} Holiday Card`}</title>
         <meta property="og:title" content={`Peachwood ${id} Holiday Card`} />
         <meta
           property="og:description"
