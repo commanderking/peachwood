@@ -665,7 +665,7 @@ const images2023: YearlyData = {
           commentator: "WOODY",
           avatarImage: "woody_excited.png",
           EN: "I'm in this picture too, can you see me? Do you think Jimmy will get a floppy dog sweater next?",
-          CH: "誒，我也在這照片裡。你看得到我嗎？ 你覺得 Jimmy 下一次會買一個有夠的毛衣嗎？ ",
+          CH: "誒，我也在這照片裡。你看得到我嗎？ 你覺得 Jimmy 下一次會買一個有狗的毛衣嗎？ ",
         },
         {
           commentator: "PEACH",
@@ -699,13 +699,13 @@ const images2023: YearlyData = {
           commentator: "PEACH",
           avatarImage: "peach_hungry.png",
           EN: "I spent a lot of the year helping Allison write her book. Whenever she was at her desk, I made sure to be there and help with the typing!",
-          CH: "我今年花了很多時間幫 Allison 寫他的書。 她在書桌時， 我都在身邊幫忙打字。",
+          CH: "我今年花了很多時間幫 Allison 寫她的書。 她在寫作時， 我都在身邊幫忙打字。",
         },
         {
           commentator: "WOODY",
           avatarImage: "woody_excited.png",
           EN: "Oh yeah, I saw you two working hard on that and you looked like you made a lot of contributions. Do you think we will be in the acknowledgments?",
-          CH: "對喔， 我看妳們兩個很努力， 看起來妳的貢獻也不少。 你覺得我們會在書的致謝裏嗎？",
+          CH: "對喔， 我看妳們兩個很努力， 看起來妳的貢獻也不少。 你覺得她會在書的後記裏感謝我們嗎？",
         },
         {
           commentator: "PEACH",
