@@ -594,7 +594,177 @@ const images2022: YearlyData = {
   ],
 };
 
-const imagesAllYears = [images2021, images2022];
+const images2023: YearlyData = {
+  id: "2023",
+  heading: "2023 Photos",
+  headlinePhoto: "/photos/2023/holiday2023.jpeg",
+  introComments: [
+    {
+      commentator: "PEACH",
+      avatarImage: "peach_thinking.png",
+      EN: "Hi all! Here's another year-end update from Cambridge, Massachusetts. I'm Peach, returning as your host this year, with some occasional help from Woody.",
+      CH: "大家好！ 到了年底， 我想跟大家分享今年 Cambridge, Massachusetts 的消息。 我是桃子，今年再次來做你們的網主。 木耳偶爾也會幫個忙。",
+    },
+  ],
+  images: [
+    {
+      src: "/2023/peach_ring.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "This year started with some big family news. Jimmy and Allison got engaged, finally! The ring looked up to snuff.",
+          CH: "年初最大的消息就是 Jimmy 跟 Allison 終於訂婚了！ 戒指看起來不錯喔！",
+        },
+      ],
+    },
+    {
+      src: "/2023/woody_ring.jpeg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Yay!!! We couldn't be more excited!",
+          CH: "耶！ 我們真興奮！",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_sleepy.png",
+          EN: "Woody, you're not even looking at the ring!",
+          CH: "木耳， 妳都沒有看到戒指！",
+        },
+      ],
+    },
+    {
+      src: "/2023/woody_snow.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "It was really cold this year in the northeast. Good thing I'm an indoor cat.",
+          CH: "今年美國東北部真冷。 幸好我是一隻只待在室內的貓。",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "You're missing out, Peach. I got to play in the snow! Allison wasn't very good at snowshoe-ing though. She needs some snow paws.",
+          CH: "啊! 外面那麼好玩，妳卻都不想出去。 我今年有玩雪！ Allison 不太會用雪鞋走路。 他需要一些雪爪子。",
+        },
+      ],
+    },
+    {
+      src: "/2023/sweaters.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "At least the cold weather meant Jimmy got to wear his cat sweater more often. Look, it's orange like me!",
+          CH: "雖然冷， 但是至少 Jimmy 有機會多穿他的貓毛衣。你看！ 她毛衣跟我一樣是橘色的.",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "I'm in this picture too, can you see me? Do you think Jimmy will get a floppy dog sweater next?",
+          CH: "誒，我也在這照片裡。你看得到我嗎？ 你覺得 Jimmy 下一次會買一個有狗的毛衣嗎？ ",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_upset.jpg",
+          EN: "No! Cat sweaters only!",
+          CH: "不會！ 他只穿有貓的毛衣。 ",
+        },
+      ],
+    },
+    {
+      src: "/2023/peach_pillow.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_licking.png",
+          EN: "And cat pillows only, too!",
+          CH: "也只買貓枕頭。",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_uncomfy.jpg",
+          EN: "I don't think I've ever seen you as happy as that pillow...",
+          CH: "我從來沒看過妳像那個貓枕頭那麼開心。",
+        },
+      ],
+    },
+    {
+      src: "/2023/peach_writing.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "I spent a lot of the year helping Allison write her book. Whenever she was at her desk, I made sure to be there and help with the typing!",
+          CH: "我今年花了很多時間幫 Allison 寫她的書。 她在寫作時， 我都在身邊幫忙打字。",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Oh yeah, I saw you two working hard on that and you looked like you made a lot of contributions. Do you think we will be in the acknowledgments?",
+          CH: "對喔， 我看妳們兩個很努力， 看起來妳的貢獻也不少。 你覺得她會在書的後記裏感謝我們嗎？",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_alert.png",
+          EN: "We better be! Look out for our names in a real book in 2025!",
+          CH: "當然會！ 等到 2025， 我們的名字就會在一本書裏出現了哦！",
+        },
+      ],
+    },
+    {
+      src: "/2023/jimmy_woody.jpeg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "While you and Allison were writing her book, I was helping Jimmy with his basketball training! He joined a basketball league this year. His team is even named after him, Jimsanity!",
+          CH: "妳在幫Allison 寫書時， 我在幫 Jimmy 進行籃球訓練。他今年參加了一個籃球比賽聯盟。他們還用他的名字取球隊的名字- Jimsanity",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_alert.png",
+          EN: "What? How did you help him train?",
+          CH: "什麼？ 妳到底是怎麼幫他訓練的？ ",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Me and Bao made sure he could use his two hands equally well!",
+          CH: "我跟 Bao 有確認他雙手都可以用。",
+        },
+      ],
+    },
+    {
+      src: "/2023/family.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "Alright, well I think it's clear that we were both critical contributors to this household this year, as usual. Thanks so much for being a part of our lives!",
+          CH: "好吧，看起來我們兩個對這家庭做出了巨大的貢獻。還要感謝身邊所有的家人朋友 。",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Yeah! We are important, but if you're reading this, you probably helped Jimmy and Allison in some way this year as well, so thanks!",
+          CH: "對啊！ 雖然我們是非常重要的， 但是如果你讀到這裡， 那你今年也大概幫到 Jimmy 跟 Allison 不少。 多謝了！",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "See you next year!",
+          CH: "明年再見！ ",
+        },
+      ],
+    },
+  ],
+};
+
+const imagesAllYears = [images2021, images2022, images2023];
 
 export const getIds = () => {
   return imagesAllYears.map((images) => ({

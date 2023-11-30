@@ -2,7 +2,7 @@ import { getImagesForYear, getIds } from "data/images";
 import { GetStaticProps } from "next";
 import Head from "next/head";
 
-import { Box, Heading, Text } from "@chakra-ui/react";
+import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import Comments from "components/Comments";
 import Photo from "components/Photo";
@@ -25,7 +25,7 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
   return (
     <Box margin="auto" maxWidth={[500, 600]}>
       <Head>
-        <title>Peachwood {id} Holiday Card</title>
+        <title>{`Peachwood ${id} Holiday Card`}</title>
         <meta property="og:title" content={`Peachwood ${id} Holiday Card`} />
         <meta
           property="og:description"
@@ -43,7 +43,7 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
           justifyContent="center"
           alignItems="center"
         >
-          <Box alignItems="center">
+          <VStack alignItems="center">
             <Heading fontSize="4xl" textAlign="center">
               {currentLanguage === "EN" ? "Happy Holidays!" : "佳節快樂!"}
             </Heading>
@@ -69,7 +69,7 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
                 />
               </Box>
             )}
-          </Box>
+          </VStack>
         </Box>
         <Box mt={10} mb={5}>
           <Heading>{heading}</Heading>
