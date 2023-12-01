@@ -22,8 +22,10 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
     headlinePhoto,
   } = yearlyData;
 
+  const maxWidth = 600;
+
   return (
-    <Box margin="auto" maxWidth={[500, 600]}>
+    <Box margin="auto" maxWidth={[500, maxWidth]}>
       <Head>
         <title>{`Peachwood ${id} Holiday Card`}</title>
         <meta property="og:title" content={`Peachwood ${id} Holiday Card`} />
@@ -54,7 +56,7 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
             </Text>
             <Image
               src={headlinePhoto}
-              width={500}
+              width={maxWidth}
               height={357}
               alt="Drawing of Dog and Cat"
             />
