@@ -768,8 +768,288 @@ const images2024: YearlyData = {
   id: "2024",
   heading: "2024 Photos",
   headlinePhoto: "/photos/2024/holiday2024.png",
-  introComments: [],
-  images: [],
+  introComments: [
+    {
+      commentator: "WOODY",
+      avatarImage: "woody_excited.png",
+      EN: "Hi hi! It's me, Woody, your host for this year's year-end update from Cambridge, Massachusetts. Don't worry, Peach is here too!",
+      CH: "",
+    },
+    {
+      commentator: "PEACH",
+      avatarImage: "peach_thinking.png",
+      EN: "Here we go again!",
+      CH: "",
+    },
+  ],
+  images: [
+    {
+      src: "/2024/travel.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "This year started off with Allison and Jimmy traveling a lot!",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "Oh yeah. I tried to stop them but off they went! I don't even know where they went off to!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/istanbul.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "I think it was Maine, and India, and maybe Istanbul too??",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_upset.jpg",
+          EN: "They better not have pet any other cats.",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_uncomfy.jpg",
+          EN: "I'm sure they wouldn't do that.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/peach-tea.JPG",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "I did get to stay at that nice teahouse.",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Oh yeah, that looked really nice! Would you recommend their teas?",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "For sure! You can try them out too, over at <a href='https://brokencupteahouse.com/'>Broken Cup Teahouse.</a>",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Yum!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/woody-surgery.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_sad.jpg",
+          EN: "Unfortunately, something really bad happened early in the year. I hurt my leg and had to get surgery!",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_sleepy.png",
+          EN: "Yeah, that was a hard time, wasn't it? You were really out of it and doing none of your wiggling or hopping.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/peach-cone.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_alert.png",
+          EN: "Good thing I was around to keep an eye on you and make sure you weren't taking your cone off.",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_sad.jpg",
+          EN: "I guess...",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/mrs-norris.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_sad.jpg",
+          EN: "But you didn't have to watch me ALL the time!",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_alert.png",
+          EN: "I am a vigilant cat.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/woody-sunglasses.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_licking.png",
+          EN: "Thanks to my vigilance, you made a full recovery!",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Yeah, I've never been better! I'm back to wiggling at max capacity!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/peach-sunglasses.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_licking.png",
+          EN: "You're welcome!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/woody-wedding.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "I made my recovery right in time to be a pup of honor at Allison and Jimmy's wedding! Hey, why weren't you there Peach?",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_staring.png",
+          EN: "Oh you know, I had other plans.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/woody-dress.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "That's a shame! You could have helped me keep Allison's dress flat.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/peach-goody-box.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_alert.png",
+          EN: "It's okay, I heard there were a lot of pictures of me there already.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/shadow-woody.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "But you missed the trip afterwards too, to Acadia National Park! The one where I ran through mud and became Shadow Woody!",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_staring.png",
+          EN: "That's gross.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/peach-sleeping.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_staring.png",
+          EN: "I had important things to do at home, like nap.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/peach-phoenix.JPG",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "And also to keep an eye out for the mail! A very important shipment came for Allison!",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Oh, the advanced copies of her books!! Can I preorder that somewhere?",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "Of course! At your favorite local bookstore, or you can find it online at Amazon, Barnes and Noble, Target, and Bookshop.org!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/woody-phoenix.JPG",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Yay, I can't wait! I snuck a look and I think we made it into the Acknowledgements!!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2024/wedding-night.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_alert.png",
+          EN: "Good! I know she's gotten lots of help from everyone, and is grateful for all the love and support her friends and family and pets have shown her.",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "That's us! And you, dear reader! That's it for our end of year wrap up. We hope you had a wonderful year too, and let's love and support each other into the new year!",
+          CH: "",
+        },
+      ],
+    },
+  ],
 };
 
 const imagesAllYears = [images2021, images2022, images2023, images2024];
