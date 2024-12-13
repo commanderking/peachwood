@@ -1,5 +1,5 @@
 import { Box, Flex, Image, Text, Divider, Link } from "@chakra-ui/react";
-import type { Comment } from "data/images";
+import { Comment } from "data/images";
 import { Language, languages } from "constants/languages";
 import { ReactNode } from "react";
 
@@ -11,7 +11,7 @@ type Props = {
   currentLanguage?: Language;
 };
 
-const Comment = ({
+const CommentWithLinks = ({
   comment,
   currentLanguage,
 }: {
@@ -77,7 +77,10 @@ const Footer = ({ comments, currentLanguage = languages.EN.value }: Props) => {
                 alignItems="center"
                 textAlign="left"
               >
-                <Comment comment={comment} currentLanguage={currentLanguage} />
+                <CommentWithLinks
+                  comment={comment}
+                  currentLanguage={currentLanguage}
+                />
               </Box>
             </Flex>
             {!isLastComment && <Divider />}

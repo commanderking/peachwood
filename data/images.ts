@@ -995,7 +995,7 @@ const images2024: YearlyData = {
         {
           commentator: "PEACH",
           avatarImage: "peach_staring.png",
-          EN: "I had important things to do at home, like nap.",
+          EN: "I had important things to do at my vacation home, like nap.",
           CH: "",
         },
       ],
