@@ -1,5 +1,5 @@
 import { Box, Flex, Image, Text, Divider, Link } from "@chakra-ui/react";
-import { Comment } from "data/images";
+import type { Comment } from "data/images";
 import { Language, languages } from "constants/languages";
 import { ReactNode } from "react";
 
