@@ -796,7 +796,7 @@ const images2024: YearlyData = {
         {
           commentator: "PEACH",
           avatarImage: "peach_thinking.png",
-          EN: "Oh yeah. I tried to stop them but off they went! I don't even know where they went off to!",
+          EN: "I tried to stop them but off they went! I don't even know where they went off to!",
           CH: "",
         },
       ],
@@ -1012,7 +1012,7 @@ const images2024: YearlyData = {
         {
           commentator: "WOODY",
           avatarImage: "woody_excited.png",
-          EN: "Oh, the advanced copies of her books!! Can I preorder that somewhere?",
+          EN: "Oh, the advanced copies of her book!! Can I preorder that somewhere?",
           CH: "",
         },
         {
