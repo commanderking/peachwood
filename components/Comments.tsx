@@ -1,6 +1,7 @@
-import { Box, Flex, Image, Text, Divider } from "@chakra-ui/react";
+import { Box, Flex, Image, Text, Divider, Link } from "@chakra-ui/react";
 import { Comment } from "data/images";
 import { Language, languages } from "constants/languages";
+import { ReactNode } from "react";
 
 const avatarBaseUrl = "/profile/";
 
@@ -8,6 +9,42 @@ type Props = {
   comments: Comment[];
   borderRadius?: any;
   currentLanguage?: Language;
+};
+
+const Comment = ({
+  comment,
+  currentLanguage,
+}: {
+  comment: Comment;
+  currentLanguage: Language;
+}) => {
+  let text: ReactNode = comment[currentLanguage];
+
+  if (comment.links) {
+    const commentText = comment[currentLanguage];
+    let linkIndex = 0; // To keep track of the current link in the list
+
+    // Use a regular expression to find placeholders of the form <>...</>
+    text = commentText.split(/(<>.*?<\/>)/g).map((segment, index) => {
+      const match = segment.match(/^<>(.*?)<\/>$/);
+
+      if (match && linkIndex < comment.links!.length) {
+        const link = comment.links![linkIndex++]; // Get the current link and increment the index
+        const linkText = match[1]; // Extract the text inside the placeholder
+
+        // Return the anchor tag as a React element
+        return (
+          <Link key={index} href={link} target="_blank" textDecor="underline">
+            {linkText}
+          </Link>
+        );
+      }
+
+      return <span key={index}>{segment}</span>;
+    });
+  }
+
+  return <Text fontSize={["0.9em", "1em"]}>{text}</Text>;
 };
 
 const Footer = ({ comments, currentLanguage = languages.EN.value }: Props) => {
@@ -40,9 +77,7 @@ const Footer = ({ comments, currentLanguage = languages.EN.value }: Props) => {
                 alignItems="center"
                 textAlign="left"
               >
-                <Text fontSize={["0.9em", "1em"]}>
-                  {comment[currentLanguage]}
-                </Text>
+                <Comment comment={comment} currentLanguage={currentLanguage} />
               </Box>
             </Flex>
             {!isLastComment && <Divider />}

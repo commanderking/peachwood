@@ -5,6 +5,7 @@ export type Comment = {
   avatarImage: string;
   EN: string;
   CH: string;
+  links?: string[];
 };
 
 export type Image = {
@@ -841,8 +842,9 @@ const images2024: YearlyData = {
         {
           commentator: "PEACH",
           avatarImage: "peach_hungry.png",
-          EN: "For sure! You can try them out too, over at <a href='https://brokencupteahouse.com/'>Broken Cup Teahouse.</a>",
+          EN: "For sure! You can try them out too, over at <>Broken Cup Teahouse.</>",
           CH: "",
+          links: ["https://brokencupteahouse.com/"],
         },
         {
           commentator: "WOODY",
@@ -1016,8 +1018,16 @@ const images2024: YearlyData = {
         {
           commentator: "PEACH",
           avatarImage: "peach_hungry.png",
-          EN: "Of course! At your favorite local bookstore, or you can find it online at Amazon, Barnes and Noble, Target, and Bookshop.org!",
+          EN: "Of course! At your <>favorite local bookstore</>, or you can find it online at <>Bookshop.org</>, <>Barnes and Noble</>, <>Target</>, and <>Amazon</>!",
           CH: "",
+          links: [
+            "https://www.harvard.com/book/9780063446236",
+            "https://bookshop.org/p/books/the-phoenix-pencil-company-allison-king/22086768?ean=9780063446236",
+
+            "https://www.barnesandnoble.com/w/the-phoenix-pencil-company-allison-king/1146307776",
+            "https://www.target.com/p/the-phoenix-pencil-company-by-allison-king-hardcover/-/A-94416857",
+            "https://www.amazon.com/Phoenix-Pencil-Company-Novel/dp/0063446235",
+          ],
         },
       ],
     },
