@@ -973,7 +973,7 @@ const images2024: YearlyData = {
       ],
     },
     {
-      src: "/2024/shadow-woody.jpg",
+      src: "/2024/shadow-woody.JPG",
       comments: [
         {
           commentator: "WOODY",
@@ -1032,7 +1032,7 @@ const images2024: YearlyData = {
       ],
     },
     {
-      src: "/2024/woody-phoenix.JPG",
+      src: "/2024/woody-phoenix.jpg",
       comments: [
         {
           commentator: "WOODY",
