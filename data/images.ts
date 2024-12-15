@@ -764,7 +764,6 @@ const images2023: YearlyData = {
     },
   ],
 };
-
 const images2024: YearlyData = {
   id: "2024",
   heading: "2024 Photos",
@@ -773,7 +772,7 @@ const images2024: YearlyData = {
     {
       commentator: "WOODY",
       avatarImage: "woody_excited.png",
-      EN: "Hi hi! It's me, Woody, your host for this year's year-end update from Cambridge, Massachusetts. Don't worry, Peach is here too!",
+      EN: "Hi hi! It's me, Woody, your host for this year's year-end update from Cambridge, Massachusetts. Don't worry, Peach is here too! Also, don't forget we're bilingual, so hit the 中文 button above if you prefer!",
       CH: "哈嘍 哈嘍！ 我是木耳, 今年的主持狗， 來給你們帶來 Cambridge, Massachusetts  今年的新的消息。不用擔心， 桃子也在。",
     },
     {
