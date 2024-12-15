@@ -44,7 +44,7 @@ const CommentWithLinks = ({
     });
   }
 
-  return <Text fontSize={["0.9em", "1em"]}>{text}</Text>;
+  return <Text fontSize={currentLanguage === "EN" ? ["0.9em", "1em"] : ["1.5em"]}>{text}</Text>;
 };
 
 const Footer = ({ comments, currentLanguage = languages.EN.value }: Props) => {
