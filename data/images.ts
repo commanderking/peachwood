@@ -779,7 +779,7 @@ const images2024: YearlyData = {
       commentator: "PEACH",
       avatarImage: "peach_thinking.png",
       EN: "Here we go again!",
-      CH: "哇！ 又過了一年！", 
+      CH: "哇！ 又過了一年！",
     },
   ],
   images: [
@@ -1018,7 +1018,7 @@ const images2024: YearlyData = {
           commentator: "PEACH",
           avatarImage: "peach_hungry.png",
           EN: "Of course! At your <>favorite local bookstore</>, or you can find it online at <>Bookshop.org</>, <>Barnes and Noble</>, <>Target</>, and <>Amazon</>!",
-          CH: "當然啊！ 妳可以去妳附近的書店， 或者在網上 <>Bookshop.org</>, <>Barnes and Noble</>, <>Target</>, 跟 <>Amazon</> 都訂得到。 ",
+          CH: "當然啊！ 妳可以去妳<>附近的書店</>， 或者在網上 <>Bookshop.org</>, <>Barnes and Noble</>, <>Target</>, 跟 <>Amazon</> 都訂得到。 ",
           links: [
             "https://www.harvard.com/book/9780063446236",
             "https://bookshop.org/p/books/the-phoenix-pencil-company-allison-king/22086768?ean=9780063446236",
