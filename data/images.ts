@@ -1061,7 +1061,22 @@ const images2024: YearlyData = {
   ],
 };
 
-const imagesAllYears = [images2021, images2022, images2023, images2024];
+const images2025: YearlyData = {
+  id: "2025",
+  heading: "2025 Photos",
+  headlinePhoto: "/photos/2025/holiday2025.png",
+  images: [],
+  introComments: [],
+  farewellComments: [],
+};
+
+const imagesAllYears = [
+  images2021,
+  images2022,
+  images2023,
+  images2024,
+  images2025,
+];
 
 export const getIds = () => {
   return imagesAllYears.map((images) => ({
