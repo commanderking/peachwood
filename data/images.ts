@@ -1065,8 +1065,262 @@ const images2025: YearlyData = {
   id: "2025",
   heading: "2025 Photos",
   headlinePhoto: "/photos/2025/holiday2025.png",
-  images: [],
-  introComments: [],
+  introComments: [
+    {
+      commentator: "PEACH",
+      avatarImage: "peach_thinking.png",
+      EN: "Meowllo. It's the end of 2025, and I'm here to do your yearly recap of our lives.",
+      CH: "",
+    },
+    {
+      commentator: "WOODY",
+      avatarImage: "woody_excited.png",
+      EN: "Oh boy, and I'm here too! And don't forget that we are bilingual, so click the 中文 button above if you prefer!",
+      CH: "",
+    },
+  ],
+  images: [
+    {
+      src: "/2025/peach-double.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "Well, this year started off like any other year. I turned 10, but I think I look exactly the same as I used to.",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Yeah, you've always looked exactly the same since I've known you. How come Allison's phone background is always you though?",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "The algorithm thinks I'm more photogenic.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2025/woody-derp.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_sad.jpg",
+          EN: "I don't know what you're talking about.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2025/woody-as-peach.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "Here, I fixed your face.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2025/woody-siblings.JPG",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "My face is fine! Look, here is my face x4! That's me and my siblings!",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_alert.png",
+          EN: "Wait, we are supposed to be updating the people about things that happened this year!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2025/manga-museum.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_alert.png",
+          EN: "Let's see, Jimmy and Allison went to Japan for their honeymoon. They were thinking about us the whole time though and got this manga family portrait of us done.",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_uncomfy.jpg",
+          EN: "Peach! That's not you, is it? I've never seen you that pleasant.",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_upset.jpg",
+          EN: "😾",
+          CH: "😾",
+        },
+      ],
+    },
+    {
+      src: "/2025/peach-tempura.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "At least they came back with some shrimp tempura for us!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2025/woody-tempura.jpg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "I love tempura!!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2025/woody-ppc.JPG",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_alert.png",
+          EN: "Oh, I guess the big thing that happened this year is that Allison's book finally came out.",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "That's right! So many people came over to help us celebrate!",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_sleepy.png",
+          EN: "Okay, moving on now.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2025/peach-vet.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_sleepy.png",
+          EN: "Something terrible happened in the summer. I hurt my leg when some firemen barged into the house!",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_sad.jpg",
+          EN: "You had to go to the vet so many times. It was very sad. The poor vets!",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "Luckily I am mostly better and did not need surgery.",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "And now we both get to eat those delicious joint supplements!",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2025/jimmy-injured.jpg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_staring.png",
+          EN: "Jimmy was particularly sad about my injury. He went and got a huge bruise on his arm in solidarity!",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_sad.jpg",
+          EN: "That seems unnecessary.",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2025/dog-halloween.jpeg",
+      comments: [
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Oh, we had a really good Halloween this year! Jimmy and I gave out candy with our neighbors.",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "Wait, you're not in this picture Woody!",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_sad.jpg",
+          EN: "Oh yeah, I got put away for barking at the kids. Did you dress up for Halloween, Peach?",
+          CH: "",
+        },
+      ],
+    },
+    {
+      src: "/2025/peach-chair.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_licking.png",
+          EN: "No, but Jimmy and Allison dressed the chair up as me.",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_uncomfy.jpg",
+          EN: "...",
+          CH: "。。。",
+        },
+      ],
+    },
+    {
+      src: "/2025/family.jpeg",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "Well, that was our year! A pretty good one now that my leg is recovered.",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Yeah, I had a great injury-free year! May we continue to be healthy into the new year!",
+          CH: "",
+        },
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_hungry.png",
+          EN: "See you next year!",
+          CH: "",
+        },
+      ],
+    },
+  ],
+
   farewellComments: [],
 };
 
