@@ -1297,7 +1297,7 @@ const images2025: YearlyData = {
       ],
     },
     {
-      src: "/2025/family.jpeg",
+      src: "/2025/family.JPG",
       comments: [
         {
           commentator: "PEACH",
