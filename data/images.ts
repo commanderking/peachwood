@@ -1324,12 +1324,52 @@ const images2025: YearlyData = {
   farewellComments: [],
 };
 
+const images2026: YearlyData = {
+  id: "2026",
+  heading: "2026 Photos",
+  headlinePhoto: "/photos/2026/holiday2026.png",
+  introComments: [
+    {
+      commentator: "WOODY",
+      avatarImage: "woody_excited.png",
+      EN: "WOOF",
+      CH: "WOOF",
+    },
+    {
+      commentator: "PEACH",
+      avatarImage: "peach_thinking.png",
+      EN: "MEOW",
+      CH: "MEOW",
+    },
+  ],
+  images: [
+    {
+      src: "/2025/family.JPG",
+      comments: [
+        {
+          commentator: "PEACH",
+          avatarImage: "peach_thinking.png",
+          EN: "Placeholder",
+          CH: "",
+        },
+        {
+          commentator: "WOODY",
+          avatarImage: "woody_excited.png",
+          EN: "Placeholder",
+          CH: "",
+        },
+      ],
+    },
+  ],
+};
+
 const imagesAllYears = [
   images2021,
   images2022,
   images2023,
   images2024,
   images2025,
+  images2026,
 ];
 
 export const getIds = () => {

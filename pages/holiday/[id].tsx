@@ -38,13 +38,8 @@ const YearlyImages = ({ yearlyData }: { yearlyData: YearlyData }) => {
           content={`https://peachwood.vercel.app${headlinePhoto}`}
         />
       </Head>
-      <Box pl={5} pr={5}>
-        <Box
-          height="100vh"
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-        >
+      <Box pt={5} pl={5} pr={5}>
+        <Box display="flex" justifyContent="center" alignItems="center">
           <VStack alignItems="center">
             <Heading fontSize="4xl" textAlign="center">
               {currentLanguage === "EN" ? "Happy Holidays!" : "佳節快樂!"}
